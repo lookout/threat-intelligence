@@ -1,0 +1,275 @@
+{
+	"type":"bundle",
+	"id":"bundle--20d6487c-5a7b-4469-b5dd-f1feacbdff5a",
+	"objects":[
+		{
+			"type":"malware",
+			"id":"malware--d3a907c9-4b9c-4a13-a88d-f75a5c04ca6e",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"DragonEgg Surveillanceware",
+			"labels":["spyware"],
+			"description":"Mobile surveillance tool tied to state-sponsored Chinese hacking group APT41 (aka Double Dragon, Winnti, BARIUM), Android, Surveillance."
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--db385792-384c-4a5a-baa4-82ff0b0f530e",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for DragonEgg",
+			"description":"This file hash indicates that a sample of DragonEgg is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'b456a61a3e0ac6073a716b06293a3295a261de56']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--aea3e8c5-68ae-4e41-b9e3-556bf4fdfc46",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--db385792-384c-4a5a-baa4-82ff0b0f530e",
+			"target_ref":"malware--d3a907c9-4b9c-4a13-a88d-f75a5c04ca6e"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--5b9cbcf3-cbbe-43d1-b2fe-5d0757f6359b",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for DragonEgg",
+			"description":"This file hash indicates that a sample of DragonEgg is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '209567f4f28c5c8abcbe56d789e558aa64239534']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--705ba769-2d91-42d5-8903-570577fb6a92",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--5b9cbcf3-cbbe-43d1-b2fe-5d0757f6359b",
+			"target_ref":"malware--d3a907c9-4b9c-4a13-a88d-f75a5c04ca6e"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--c8a90a2f-7b95-40af-a419-c63c6e8b5f2d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for DragonEgg",
+			"description":"This file hash indicates that a sample of DragonEgg is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'b456a61a3e0ac6073a716b06293a3295a261de56']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--75e64eb7-195f-4a16-ab24-9a02d546ccb7",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--c8a90a2f-7b95-40af-a419-c63c6e8b5f2d",
+			"target_ref":"malware--d3a907c9-4b9c-4a13-a88d-f75a5c04ca6e"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--4f42687d-4911-4eed-ad69-e31ca8f216db",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for DragonEgg",
+			"description":"This file hash indicates that a sample of DragonEgg is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'cab70e99516a36ab0f0d3851375adf0740f4bd5e']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--13672be8-1044-4681-94a6-8bf105e402ec",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--4f42687d-4911-4eed-ad69-e31ca8f216db",
+			"target_ref":"malware--d3a907c9-4b9c-4a13-a88d-f75a5c04ca6e"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--34aa6470-2d67-4958-be4f-97444b396c89",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for DragonEgg",
+			"description":"This file hash indicates that a sample of DragonEgg is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '81762cfae0bd5585e8c0c86e4fdbbe47d2dd614a']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--6869398f-7165-422b-89e6-78cc709619eb",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--34aa6470-2d67-4958-be4f-97444b396c89",
+			"target_ref":"malware--d3a907c9-4b9c-4a13-a88d-f75a5c04ca6e"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--0b317d94-6af3-411f-8a5c-55930d6c020c",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for DragonEgg",
+			"description":"This file hash indicates that a sample of DragonEgg is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'fbda76a2c2834f89d642a72c24b1988a1f56e4b8']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--7c90b191-4779-48e1-8552-d288f9e31c5d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--0b317d94-6af3-411f-8a5c-55930d6c020c",
+			"target_ref":"malware--d3a907c9-4b9c-4a13-a88d-f75a5c04ca6e"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--c00e0e95-76dc-4e5e-83ec-5762827530d7",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious IP for DragonEgg",
+			"description":"Malicious IP for DragonEgg",
+			"labels":["malicious-activity"],
+			"pattern":"[ipv4-addr:value = '118.193.39.165']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--4c344e44-d961-4b1d-9011-120d13665ce2",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--c00e0e95-76dc-4e5e-83ec-5762827530d7",
+			"target_ref":"malware--d3a907c9-4b9c-4a13-a88d-f75a5c04ca6e"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--ca9ac0d1-96c4-408f-9f69-c946ce4477a4",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious IP for DragonEgg",
+			"description":"Malicious IP for DragonEgg",
+			"labels":["malicious-activity"],
+			"pattern":"[ipv4-addr:value = '121.201.109.98']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--48d3c0df-a690-4524-a4db-307e5613bf50",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--ca9ac0d1-96c4-408f-9f69-c946ce4477a4",
+			"target_ref":"malware--d3a907c9-4b9c-4a13-a88d-f75a5c04ca6e"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--a1f42154-07e3-46b4-bac4-035b662e06b8",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for DragonEgg",
+			"description":"Malicious C2 that indicates activity of DragonEgg.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'alxc.tbtianyan.com']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--ac897b6f-f036-4dd3-be2f-e8d2ce6ad9d3",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--a1f42154-07e3-46b4-bac4-035b662e06b8",
+			"target_ref":"malware--d3a907c9-4b9c-4a13-a88d-f75a5c04ca6e"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--cacf6f2a-f5e9-4696-a5c3-a77d41ffdebc",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for DragonEgg",
+			"description":"Malicious C2 that indicates activity of DragonEgg.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'yxwasec.com']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--c490728a-5ac5-44c3-b676-dc2e51e47533",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--cacf6f2a-f5e9-4696-a5c3-a77d41ffdebc",
+			"target_ref":"malware--d3a907c9-4b9c-4a13-a88d-f75a5c04ca6e"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--8709b2d6-cced-4ea2-b192-fbe0dd4b09e0",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for DragonEgg",
+			"description":"Malicious C2 that indicates activity of DragonEgg.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'smiss.imwork.net']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--8c598799-8fc3-48b4-94e4-7453e074bd6f",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--8709b2d6-cced-4ea2-b192-fbe0dd4b09e0",
+			"target_ref":"malware--d3a907c9-4b9c-4a13-a88d-f75a5c04ca6e"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--79d84efb-717f-457f-aad8-3f600945a9ac",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for DragonEgg",
+			"description":"Malicious C2 that indicates activity of DragonEgg.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'huaxin-bantian.duckdns.org']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--7cdcf04c-6510-43b2-af1c-2b58f1ac32e1",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--79d84efb-717f-457f-aad8-3f600945a9ac",
+			"target_ref":"malware--d3a907c9-4b9c-4a13-a88d-f75a5c04ca6e"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--f963c479-fce5-455b-9355-b9db102f50ad",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious IP for DragonEgg",
+			"description":"Malicious IP for DragonEgg",
+			"labels":["malicious-activity"],
+			"pattern":"[ipv4-addr:value = '103.43.17.99']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--179490f9-df2c-435c-bfc2-da293d316a56",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--f963c479-fce5-455b-9355-b9db102f50ad",
+			"target_ref":"malware--d3a907c9-4b9c-4a13-a88d-f75a5c04ca6e"
+		}
+	]
+}

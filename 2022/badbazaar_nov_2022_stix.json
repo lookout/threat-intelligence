@@ -1,0 +1,2375 @@
+{
+	"type":"bundle",
+	"id":"bundle--13ba436e-eefc-4a0b-b219-adb96d5d29f2",
+	"objects":[
+		{
+			"type":"malware",
+			"id":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"BadBazaar Surveillanceware",
+			"labels":["spyware"],
+			"description":"BadBazaar surveillanceware, known to target the Uyghurs and Tibetan community, distributed by Chinese state-sponsored APT threat actor, Surveillance, Android."
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--14548a17-5e9e-4033-8dac-10cc0d0dbabb",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '64914dd41c052905c561a328654b63f4dc8c5d69']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--ba89d4c1-fdd9-4b30-afec-08bbcdcd2539",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--14548a17-5e9e-4033-8dac-10cc0d0dbabb",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--ae60bbdb-4619-4f51-9687-538ce3dc7576",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '35a5e99e34d9f333a333f55b99b4b3b8ac75a7f6']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--18db07a0-b1b8-4781-be81-6451847256bc",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--ae60bbdb-4619-4f51-9687-538ce3dc7576",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--08b5d713-e2a1-49b3-a83b-af11da2138f9",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '4e4830857ed294d301494f0a39fc5a4571db879f']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--90acbb12-44d6-449a-97c1-b804e8311d2a",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--08b5d713-e2a1-49b3-a83b-af11da2138f9",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--47d7070d-d9dd-48a1-b2d6-2fccdc2189ca",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '7adaa19388e9e2319b0281a15a15f7e80b21c8d7']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--926bdfdc-6ff9-4da2-a069-b00a747bfe73",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--47d7070d-d9dd-48a1-b2d6-2fccdc2189ca",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--f4c0d6fa-1e7c-4e2b-a41d-57dafecba0d6",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '0db9e300f43d7a500ae53ac76e0b8be50b0d74cc']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--8fdc0fed-f8ee-4a8b-a1be-d633f58fe71a",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--f4c0d6fa-1e7c-4e2b-a41d-57dafecba0d6",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--1a483148-6bfb-473e-96fe-b7218b153612",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'ca1f316fce5394fb986ba82571b4035a5e4ec7af']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--2e91775a-6b4c-49ff-bb05-e8e0654febb2",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--1a483148-6bfb-473e-96fe-b7218b153612",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--2f000368-93f1-42f2-a1ab-089e5b5fff88",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '32e5ea9f0ac70480e07abc9a59635895901de6f6']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--c5036227-0e8c-421d-8991-6d5be4e45dc2",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--2f000368-93f1-42f2-a1ab-089e5b5fff88",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--5715151e-32c7-4988-83a2-8ea44d6dba8c",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '7fcf658f226c0c8df582e545ff2b8cdf6b3debbc']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--bb4084c8-8f1a-4e28-850d-c07a844e74ba",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--5715151e-32c7-4988-83a2-8ea44d6dba8c",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--0823a4f1-33b9-4713-a08a-44c50332ebc7",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'b48a7152bc9f91e60b72fdcf6d0440aa51edf672']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--ebb94dfa-2a10-4075-bb43-131bc90318af",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--0823a4f1-33b9-4713-a08a-44c50332ebc7",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--645dbb1a-af02-4ece-927f-7ff480006481",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'd807661c3633a21a42838508f731ef1678d4a6e6']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--b1a50e5a-7e32-44b9-8e92-112ef5ab8565",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--645dbb1a-af02-4ece-927f-7ff480006481",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--ac4b7e02-30ba-4076-9736-8a836e599820",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '5604c3c0ba4807048ddf9fffd2dcc9688a98b412']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--56313ede-2228-4d29-9f58-b01d8fa4b646",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--ac4b7e02-30ba-4076-9736-8a836e599820",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--a5dc6ff8-d220-41e6-ab77-8cffdaab1d41",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'a5ecbc9baf86520a2ef0ee0f7c8535f8b939e1e2']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--6c83000e-76da-4a94-b999-4ce67f91f8c1",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--a5dc6ff8-d220-41e6-ab77-8cffdaab1d41",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--a08afb60-20d7-4a38-a25d-89a62f8d56f5",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '99b97a90710e702a90ff1c7971e3b4d12faaf925']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--108347e4-1e38-472d-89d8-2d283c029d5d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--a08afb60-20d7-4a38-a25d-89a62f8d56f5",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--9cbc8503-97d5-453d-8474-b164f969c8aa",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'b815c1541ba031a282ffff5b4b8381e136f9aab8']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--b79042cb-a451-47ae-8d80-d7e12b47d4e0",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--9cbc8503-97d5-453d-8474-b164f969c8aa",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--73f121ef-ed2d-4e48-a0da-08a528d98603",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '6a24d992d59a5bd5c440b0b7ece48bc84426903b']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--bc29b6fe-dd3b-4cd6-ab45-7bfb384286f8",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--73f121ef-ed2d-4e48-a0da-08a528d98603",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--b89f4cbe-d1d2-4faa-ab21-beb9ac97cd13",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'b2678ea7e89f22c88097880ee7f0d104e9b0ed58']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--4e0a5ecf-1c70-4ced-82d7-9592fbc9b6a2",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--b89f4cbe-d1d2-4faa-ab21-beb9ac97cd13",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--e9352e40-74c7-47a9-bb96-f64d48b2c557",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '1ad061359b734d12f291e3919a2d8d4821d1c49b']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--47ab71da-0852-4ed0-9dc4-1d47207b064d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--e9352e40-74c7-47a9-bb96-f64d48b2c557",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--09628dd3-e833-40bb-a945-2973c8f6b6c8",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '4bbf7a4ee35585a3e801787ab737d9943e001fce']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--573c9064-028e-49a9-b942-b303d8aa433f",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--09628dd3-e833-40bb-a945-2973c8f6b6c8",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--d38f3528-9b4e-4632-ab10-6f6e3b9bd724",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '92882104e7d8afde922e0fe63306076ba3af0582']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--f3ef91b9-609c-4ca0-a3a9-1ec7f044e5a7",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--d38f3528-9b4e-4632-ab10-6f6e3b9bd724",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--063b5e8a-8e57-47a0-9e47-85d329587593",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '094a301a1b3df0f4cf6615fee724676690882dc1']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--22729c3f-ec06-49a4-abfa-a11dff2fc54b",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--063b5e8a-8e57-47a0-9e47-85d329587593",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--909b8f93-766b-4da0-a7d0-7836dac6009b",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '99ae63ace45b4115a4e0390d9e891c5067beb082']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--a935d1bb-3fad-4618-a64e-c411f31ca6dd",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--909b8f93-766b-4da0-a7d0-7836dac6009b",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--3cd25a13-fbb1-4da5-8989-40f5aafcd2f9",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '1a4768470ce70a65a89e2e3e3bcfad53dd0198c9']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--b73281e8-bf05-456f-b4e0-6c0e005bae55",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--3cd25a13-fbb1-4da5-8989-40f5aafcd2f9",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--233eebae-f240-4e29-a0c9-9cff64d3277a",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'dd8d4557c731c55bd79727e025a0e7785d49eb9d']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--7cce9513-bdc2-4518-b6bf-a7da879d6a1f",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--233eebae-f240-4e29-a0c9-9cff64d3277a",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--cc9bdf66-99eb-4ba9-b752-4fb9b978af57",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '83d331b066f904b6564dc856425ca95667507233']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--703f629b-fe42-4966-915d-1b28a21b59fa",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--cc9bdf66-99eb-4ba9-b752-4fb9b978af57",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--5ed6d6fc-52c3-4d3a-917f-38589be8ac85",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '46f744ea4566a96b67b48c450dc404a960855131']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--bd57ce6d-74e5-4178-9025-be0935cf2816",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--5ed6d6fc-52c3-4d3a-917f-38589be8ac85",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--d724cf99-f55a-48db-99de-807e887ab4b3",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '99aa58c03b31a49c6b5107bf13dbc91aff26b429']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--f8e6d45b-f4fb-4ce1-a436-f8a1bf5fb08a",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--d724cf99-f55a-48db-99de-807e887ab4b3",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--bb302578-105f-45fd-a52e-b97c04c23ca2",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '3976b17294fdd437f6c2fee94bed109b6ef2dca0']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--0908f2ab-2aea-4e4f-8e0e-c7e05ab705f9",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--bb302578-105f-45fd-a52e-b97c04c23ca2",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--e2b6fe98-9012-4976-bdd5-9cd7a0aa4e2d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '1754f519279803e3ae5f356be255c2f667f81ee6']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--e62233bc-59a8-43c7-a2cd-87b654693d6b",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--e2b6fe98-9012-4976-bdd5-9cd7a0aa4e2d",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--b251bd53-e64a-4ed7-8631-2aa092d453af",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '02fe27a2c823ccb1f3cb06a3a031cd7d8e5b3699']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--74b23538-d0a6-46da-8f53-eb8e0a618d80",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--b251bd53-e64a-4ed7-8631-2aa092d453af",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--0761a8b4-0c51-4146-ae4b-873e2551eb3e",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'eda9e160cf31d0f5c1b89baace5fcc1f03f13ac4']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--5dd52be7-cc4b-43e9-8cdf-3442a60a8bd0",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--0761a8b4-0c51-4146-ae4b-873e2551eb3e",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--2dd74459-763a-4126-8cc6-b9ae07b931f3",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'a9108ec1fe0e03080b5742b81859e67f743d2a1d']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--36855079-4461-4b90-985b-57a091d47406",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--2dd74459-763a-4126-8cc6-b9ae07b931f3",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--2db5dce6-3f97-4ba5-ba8b-a8d6ba789e19",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '049d3b154a2dd7421684b85327047efcbc117c43']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--3413c5e6-8e95-4a24-89bb-95618a5cdb6b",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--2db5dce6-3f97-4ba5-ba8b-a8d6ba789e19",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--9a1ed54a-73db-4292-bd76-57c33d38a134",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '1fe54731c65c6449d9b561fa7ed36e1fb4f289ce']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--8843e6c1-9413-4574-af82-03b1cfe8db57",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--9a1ed54a-73db-4292-bd76-57c33d38a134",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--66f50342-437d-4b4e-a09d-d47de499b359",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '97c2fc719e72f9c573cc2dd978baa13609573637']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--2d2f2cd5-7836-4dd5-9b7a-9670fafb7ab9",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--66f50342-437d-4b4e-a09d-d47de499b359",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--d6e9afc7-8fb8-43a9-898b-9cba92f571c1",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '766d3b074bedf5eba0ba45c78968159ef23e4da9']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--af8052ba-f742-43e6-b1de-c346c954d2a0",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--d6e9afc7-8fb8-43a9-898b-9cba92f571c1",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--f2a7e915-4afd-4497-8cef-2a2bc2aab960",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'b5b4b7d092a15eafacf75adb465abda8fd507af5']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--378c4a27-e197-4555-971c-c892d400999f",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--f2a7e915-4afd-4497-8cef-2a2bc2aab960",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--3953e9f7-e0d3-4b23-b033-06f819ca5128",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'c996c8149701233b0654b0484647108d95497239']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--0c70d715-83a0-4896-a9a5-2cf3c5072748",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--3953e9f7-e0d3-4b23-b033-06f819ca5128",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--1f787538-e39f-4e8f-88b6-6017fcf4592a",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '8f1e3298a4dc150ac15f8ec6273fb92eee58dced']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--4ccb5cf5-2142-4a81-ba36-6032a6a6b21b",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--1f787538-e39f-4e8f-88b6-6017fcf4592a",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--73baca8f-125e-469d-a7b8-cde584a03651",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '254b02c5379f790438bdcd60732fa3ace525ee19']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--e2fcae4c-43c0-442c-8196-2231bd519ba7",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--73baca8f-125e-469d-a7b8-cde584a03651",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--a2b265a4-ccc4-4e60-8c7b-12666186ba89",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '14b7842152fc8b083e678d030150e989e8d92048']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--d3c34563-a470-4d93-930a-ee8892ec4d08",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--a2b265a4-ccc4-4e60-8c7b-12666186ba89",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--b3a93909-74de-4560-9977-803c2ffd0841",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '73179f70701c864fbbf87142788be8a9dc0bd6a0']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--097ccbf3-74f1-4f79-a9c7-5e73d67b416d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--b3a93909-74de-4560-9977-803c2ffd0841",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--96fc282f-8a94-4ea1-8b29-316cedc42e9d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'ebbf119878c96d50beabfaa9a547c041a392b590']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--4b99cb51-acb6-4d8f-b1bd-838fa15ebf52",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--96fc282f-8a94-4ea1-8b29-316cedc42e9d",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--97adb103-7c56-4c18-ae09-ddb360398c03",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '6a2419ad67ffb683315c749a0a0263e588f8aac9']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--ee7acd6c-6620-4875-b4eb-e6415f23fd80",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--97adb103-7c56-4c18-ae09-ddb360398c03",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--f31c75e9-52b3-42ae-b16f-e23d9ba428bf",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'e0eaa6323592ca0980450bd267bea4d5fcbf34f0']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--987e7c8a-a4f0-4dd0-b423-9be98d6b9407",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--f31c75e9-52b3-42ae-b16f-e23d9ba428bf",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--09c2dbf5-b633-4c74-a6dc-95813b776f55",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '51b2fa0914ea89e25268985d47062ba33beb1152']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--413d827a-8852-403e-9e76-8e41d7dface6",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--09c2dbf5-b633-4c74-a6dc-95813b776f55",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--1c6544ee-a7eb-4831-81ca-b411f67123e5",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '6eab2185938d766762d57db14cbb94d838ceced3']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--49d59b0b-1cc7-42bf-b217-d7a142dcc2ef",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--1c6544ee-a7eb-4831-81ca-b411f67123e5",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--aaca836f-2bca-44a0-a971-10e86cf6fad6",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '775b4b3d1fdf345248c63ac92816e760d2fe8fe3']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--d73628db-363a-4b5e-b719-c98fb5f15bc7",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--aaca836f-2bca-44a0-a971-10e86cf6fad6",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--a186906e-1d6c-4026-ab91-9f5dd5135d8f",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'cc20e7496bbe9fa7874480930c77fa2befe5be76']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--43fcf167-8ce8-4640-996e-d3373901bfc8",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--a186906e-1d6c-4026-ab91-9f5dd5135d8f",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--ec1df03a-0277-4e05-a5b1-83ab05bf966c",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '32d0b1b5e90f824114d29b1c429ce60f3a28e9de']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--65f799e1-e68f-4206-998c-470247e0e659",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--ec1df03a-0277-4e05-a5b1-83ab05bf966c",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--7aaa94cd-ddcf-4ae2-9724-54376bef7cda",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'acf520013d6c7c64517f2924fb8d4750b1f75b1c']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--06065406-fa27-430a-a354-b3508f5c3d5b",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--7aaa94cd-ddcf-4ae2-9724-54376bef7cda",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--a0aca42d-94bf-4c4f-94ac-25a59a173a62",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'd31d98e84d965ff44df87f85b6e3cb4aae4c2359']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--78af9341-7dbf-4d6e-8f8a-dc29bbb2ab37",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--a0aca42d-94bf-4c4f-94ac-25a59a173a62",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--686f7cb8-0f52-4e8a-a8bc-eeffaa3baca7",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '05f7e13fafe6adb1b0ea0a06c6fd501548c2623f']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--beef3495-e307-49b1-9c07-18b45eab1fa7",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--686f7cb8-0f52-4e8a-a8bc-eeffaa3baca7",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--bd8fce9a-aa62-4955-9791-8f7b86add9e3",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '1a0913bf660f053110e11f4c9ee0141bfd797f20']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--f67ea5ee-d219-4f00-81eb-ad86778470cf",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--bd8fce9a-aa62-4955-9791-8f7b86add9e3",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--b838c85a-249c-4bce-b0f1-4793d3dfde99",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '364da6b3fe9617d83c612ea6e149c43c0e38da30']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--e69ed75c-2e09-449a-baa5-e010618058df",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--b838c85a-249c-4bce-b0f1-4793d3dfde99",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--e59d1606-8265-4ac8-801a-11c9ea8effa1",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '5c60b0fcec3e04b7bd5d29c4382a460f7be67dea']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--54e773dc-05f1-4204-b30a-753801de5aa8",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--e59d1606-8265-4ac8-801a-11c9ea8effa1",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--e93673dd-17b6-4245-91d8-0f2089843d79",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'd2c4345ed755b6e5b60608f5550f834a21a54aef']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--daf38315-fe29-4b16-adff-55a0164084a2",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--e93673dd-17b6-4245-91d8-0f2089843d79",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--16ebdcf0-126c-458b-81b8-071b855fc365",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '52b0edf52160af49a22045d557226f8ec9a5fbaa']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--80634d17-6434-44bd-ba50-eab7dbea86c7",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--16ebdcf0-126c-458b-81b8-071b855fc365",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--595065aa-a809-4a45-bf64-ed373e1d2817",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'e12981139d302b29ce1e35f91310dbe63d14b795']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--7399a434-45ad-4685-9ca1-453ded063755",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--595065aa-a809-4a45-bf64-ed373e1d2817",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--5abff949-3be9-4334-b985-df4d3fa686bc",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '3d75dcd7bdb8a633a779ffe4d577225f05509762']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--9297603e-f57d-4675-ac7f-ccd1fe13bb0e",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--5abff949-3be9-4334-b985-df4d3fa686bc",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--04898825-97d3-4ab7-bd9a-1623970117cf",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '0f3e0524a50c81774462ffe9c22e84a4c0e4779c']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--934cc60f-7b40-47c4-9a4a-3ee4a5076cbd",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--04898825-97d3-4ab7-bd9a-1623970117cf",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--10a11cb5-0302-438e-853e-8b7964047c5b",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '9dc04eab3cb89975b4a8a1b19c44159c5139d99a']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--6a8d826b-78a7-45c7-bf69-6186ff7340ad",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--10a11cb5-0302-438e-853e-8b7964047c5b",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--0aadbc86-fa8a-4e0e-9991-1850c1468c38",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '1271bf221f28a9d215d4a62934d71106cae6041a']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--95250f4f-b2f5-4301-9a43-fe9aca48f295",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--0aadbc86-fa8a-4e0e-9991-1850c1468c38",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--97776dba-e7f2-4969-b54f-cfe8da445476",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'a67cfaaac4804779d6867332641bf0be931c03f7']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--4b682c3b-b8f0-41e4-907b-afa0080c0985",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--97776dba-e7f2-4969-b54f-cfe8da445476",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--3478ca1d-0980-43bc-8830-5dbefe9dc632",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '5fd71ba89e7e69b3ff7445fb9088f78d16761a2c']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--d5ff3c54-a2b0-4e5e-947c-0042e992de98",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--3478ca1d-0980-43bc-8830-5dbefe9dc632",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--1f62598f-e429-476a-8d7e-5b451b5aabf7",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'a9aa8d5a3d4ff7b4c4938caaadc9ab58bf1334e0']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--4db587cd-9cd3-43d4-a779-ba9aa4585aba",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--1f62598f-e429-476a-8d7e-5b451b5aabf7",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--e749e8d4-807c-4dbb-8fab-70b7c7600d8c",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '6fff4f4ed4333719da8925c83e2920d6f58da9d0']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--e2e87089-49df-437e-9dc8-3ff794556941",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--e749e8d4-807c-4dbb-8fab-70b7c7600d8c",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--9ea82f69-2da1-4462-92e5-9b5cab700769",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '8b5f52a689cb9d23ea1848912dd381e8365427ac']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--b37cea56-6a75-4ea0-b06f-6c30c1fa5688",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--9ea82f69-2da1-4462-92e5-9b5cab700769",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--6cb1d4c4-e253-4008-8237-221b331928ea",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'b4277f0a25ff460e491a345db56fc30db7abb651']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--652e6f37-7af2-406c-89f4-4532b3b0c2cf",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--6cb1d4c4-e253-4008-8237-221b331928ea",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--5224d4a6-ac13-4dee-8fdb-a01b3d316106",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '64a9b7130670be93194f8eddfa17ca08fcb1ce91']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--3866bb23-1fe5-4f12-9730-ad8041c5a4a3",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--5224d4a6-ac13-4dee-8fdb-a01b3d316106",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--e6b7e254-d9cd-414b-b1d2-115707bfda21",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '308753fdc03722dee925d132cbdd247d37047f48']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--0625c53e-bfed-4155-a86d-3505c68b54e2",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--e6b7e254-d9cd-414b-b1d2-115707bfda21",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--0abf9cdd-b618-4cbc-8084-eb49919a0c3e",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'ab7a5133e4ad9b04fe188195bc0f5e2575bb5bbc']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--4e333eda-0168-47e8-9d14-e7cad9ef35f2",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--0abf9cdd-b618-4cbc-8084-eb49919a0c3e",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--b0aab5a1-ab18-475c-9e77-5e52d239e0d2",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '2996d718a272d363f8b1a84fb08fbdbc3a1b4550']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--912a0c46-edc0-45ce-84bc-0f30ff5ba0a7",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--b0aab5a1-ab18-475c-9e77-5e52d239e0d2",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--f6f0ef75-b19f-463d-84ce-1df19e5fe109",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '9a9217ddbd816b5ed3b54c6ef87e9b5204f39d5e']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--ee8ce676-b9bf-4f46-ad81-d1f53ad559fb",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--f6f0ef75-b19f-463d-84ce-1df19e5fe109",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--8eb29d84-0030-4ee8-8667-1631fe0029fb",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '35dca26fd35a57f215dc09abc4c6751d90e2c2d8']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--9adcf25f-daef-4d25-8cba-3df83e41675f",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--8eb29d84-0030-4ee8-8667-1631fe0029fb",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--3d9204ed-cabc-4c25-9fe1-af4fb14c931e",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '45053c0f05dde4daf763f1b2319673fd6ba2b419']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--c83a20c9-e1f8-4f3e-b9f8-3d892c5464c9",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--3d9204ed-cabc-4c25-9fe1-af4fb14c931e",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--e7390067-d12f-444f-880f-d720d39e828a",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '8ad60ffaf92e7249870cb4ebb6006aa3119f52b0']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--f161f0b3-b547-4baf-b8c5-001c8348d1a2",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--e7390067-d12f-444f-880f-d720d39e828a",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--ab054542-b986-4ac5-b01c-83c3ba0c932d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'c959054949841cb1b58f9fb671e548988fb84a20']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--299a96f3-1589-4d1f-bab5-9c701a8ae85a",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--ab054542-b986-4ac5-b01c-83c3ba0c932d",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--e7e97d55-097b-4a93-add7-82be04bc72dc",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '70de0f15dc8a5dc57cba07eba79bc47cf2b0913a']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--dd6f4279-de74-446d-a041-d896c64ffe18",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--e7e97d55-097b-4a93-add7-82be04bc72dc",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--dd020089-1eb3-4848-aa03-edf16141195d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '4ef07236c8d15ab80314a06c8db8089965f32027']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--307bddd4-6463-4395-881f-d925a07e7b55",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--dd020089-1eb3-4848-aa03-edf16141195d",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--0e6fb27e-bb6c-4a25-92b4-737a1552a23c",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '5688de35ab44a0d18a41bf88e3bac868037262b8']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--fce1d26b-63b7-4f10-8dbe-a350e819c207",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--0e6fb27e-bb6c-4a25-92b4-737a1552a23c",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--8bd0210f-64b6-4684-b269-9f44a16e38a4",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '1250d27ce263a662f0ebae458866294bb735f281']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--56bd99c6-69c8-498d-9a5e-e1d6c776ebc7",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--8bd0210f-64b6-4684-b269-9f44a16e38a4",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--b8eaec7b-7299-4c70-8027-75a93e9f5fbd",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'ec857f031a37ac0f2e7c2081c71702929ca0fb7e']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--df64868e-01cc-4063-96ea-551f8ade934f",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--b8eaec7b-7299-4c70-8027-75a93e9f5fbd",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--1aace7e0-e136-43bc-a131-0d26687ff32e",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'fb80e3d529d4101b7e5d440d18af61dd9fb26e0c']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--2d238c76-2b8e-41ce-b0c4-082cdb631afb",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--1aace7e0-e136-43bc-a131-0d26687ff32e",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--6af78bd2-4745-4558-8c8c-69791d9831ef",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'df6b7f14a3bb7ca2e3e1fa54b9023e074ab7befe']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--86591619-e8b2-4c88-a98a-b3224d3d2ce8",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--6af78bd2-4745-4558-8c8c-69791d9831ef",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--4fb7c542-bc2d-441d-9aa7-1959bf354e95",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'dee792a703eda8cba6ca160a0ac616809abf9c6e']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--b37e9931-f7f9-400a-8a13-722507ae5bd5",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--4fb7c542-bc2d-441d-9aa7-1959bf354e95",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--27dd4a58-eefe-48b8-ad8c-e701f8fbb14a",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '3fb95e744d3912646142d01e7ede367c634eb562']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--949bd3ef-ebf3-4c9f-baa9-9655a39982e9",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--27dd4a58-eefe-48b8-ad8c-e701f8fbb14a",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--fbaf0fd5-a7bb-4711-8af8-cff2ca2832d5",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '4ea2f5c795456f32134ceebb73eccd40d932c2bc']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--f26bcf63-aa09-4075-a63d-7ab6553ca127",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--fbaf0fd5-a7bb-4711-8af8-cff2ca2832d5",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--7061b935-bcd9-48a0-a851-9341655c0a7e",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'c76141e30a7946fbc568e0840a0c7b4255b17394']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--e0d1c4f4-e611-46c2-96e5-963fb812b0d4",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--7061b935-bcd9-48a0-a851-9341655c0a7e",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--f35bc1ff-bea6-4b92-a668-acdc5f5513a6",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '8d943e89fcc19c7cccab40225feecf0f9acff384']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--227c3b23-4abd-4964-8677-b2d22a08f796",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--f35bc1ff-bea6-4b92-a668-acdc5f5513a6",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--d666e8f3-c31b-48f8-8eea-f88673be49ab",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '46a9f391182c2f2612e78c939bcab81b710e6e1d']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--8627f7bd-6d7c-4a29-8a83-9159a13f9693",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--d666e8f3-c31b-48f8-8eea-f88673be49ab",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--f89e4b3e-8789-4a0d-868f-5d2d707cf42b",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '61be81fbc810a02c58adaca17d8cb61b370a2d8b']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--4dec48a5-63e4-4f5a-8741-6808cde17bc2",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--f89e4b3e-8789-4a0d-868f-5d2d707cf42b",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--e39929ce-75a7-490f-b25e-361cc9720b30",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '816bdda35d24dfe256d03a916ce3b9fa5c7991ce']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--098088b2-29f4-4888-bc76-8fa78c6e9cfd",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--e39929ce-75a7-490f-b25e-361cc9720b30",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--57541c3c-8fac-4318-a8fc-e1826706501f",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '2a1cd4f6b5ccd49278f214491d4ed0041d8f1732']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--5ac80a04-9580-4831-9628-82cecd114a20",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--57541c3c-8fac-4318-a8fc-e1826706501f",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--c5d7dba2-6ef3-46af-8836-86955d8f21f3",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '7cc46bc6e71b2bf72a0da7fe67c880b4c25761b7']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--4c3c9c90-2bf2-4f82-b9e2-8a36c3bd2d7a",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--c5d7dba2-6ef3-46af-8836-86955d8f21f3",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--d91c9cb2-8374-4c43-8ea4-d1255f883980",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '5d94f0c6b4baf87fc225d889d32df8a68dda6d37']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--11b64d6c-397b-4c3a-8b64-cf9ee5075ccd",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--d91c9cb2-8374-4c43-8ea4-d1255f883980",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--2d2e62f6-3457-4dfe-b413-5d52094203f5",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'f08e38a168e0d79ab8bc6960a1f463d968a211f0']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--e571f619-66a2-481a-8dcd-bf625bbce51d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--2d2e62f6-3457-4dfe-b413-5d52094203f5",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--19aa7a0d-de11-46f4-98db-96c0343ec0fb",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'f08e38a168e0d79ab8bc6960a1f463d968a211f0']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--f4ff3846-941c-4c1b-ae51-64073b3e5bee",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--19aa7a0d-de11-46f4-98db-96c0343ec0fb",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--f55eaba8-63ff-4d1b-a26c-48c0bcc24837",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'e18f4c4636bd80461905270433f2b34edf92dfe0']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--8f2d9770-cb96-4974-8961-99ba4ba33bc7",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--f55eaba8-63ff-4d1b-a26c-48c0bcc24837",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--170e71fa-412a-4ff0-bbab-08b79c8676d1",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'da01961c3cb3dfbce62a8cb93a0ec61fb2b89386']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--1ce3da1e-bec4-4868-add9-94b342b408f9",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--170e71fa-412a-4ff0-bbab-08b79c8676d1",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--d175c994-2279-4936-a47c-eeb16b4e8384",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'ff189b2e8c0843bb5a820926813245b42dcedbc2']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--ef5ceb9f-f3c3-4377-957b-d8c8441a0080",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--d175c994-2279-4936-a47c-eeb16b4e8384",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--8d79b167-09e4-404b-a2c3-ebed7e692825",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'bcaa23a0dba03ea9eee6c208e97713d07692e610']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--b619cb12-4402-410a-95e3-7a7b9da2cb9b",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--8d79b167-09e4-404b-a2c3-ebed7e692825",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--9eee003b-9e7d-45ef-8ab4-a2f1829c7294",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'e3a686d830424f1806454fd2b2a2d0235a300bf1']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--3cad1fa0-4e2a-4738-84c6-fb8d18518b17",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--9eee003b-9e7d-45ef-8ab4-a2f1829c7294",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--2278b7cd-d487-4d17-b0c5-8d9f83dc828a",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'e5b284900d3f0dea148356ee2dee7b8dbb7840db']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--b956b853-ca42-4566-bf22-9104f6baea70",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--2278b7cd-d487-4d17-b0c5-8d9f83dc828a",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--319f5384-10ae-4ce0-934b-fc28804b6c41",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '64ae19e2abca19fc1a59745da70e4fa927c3880a']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--a2af6846-22cc-4fa8-a45d-62ee8bee3fd2",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--319f5384-10ae-4ce0-934b-fc28804b6c41",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--43be5e11-6d6b-4cef-94c5-1966f7b69ce4",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'c6a178901c53768e8bd3a7ffc4bbc19f63633e6b']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--f5ba8095-1db4-4b2e-9bae-3700d91d24ad",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--43be5e11-6d6b-4cef-94c5-1966f7b69ce4",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--d11b4e6c-4be8-4c9e-9ce9-feba82741bc7",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'e368db837edf340e47e85652d6159d6e90725b0d']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--9984ae52-8109-4dfe-b21a-0c8696c8d429",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--d11b4e6c-4be8-4c9e-9ce9-feba82741bc7",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--14f76f2c-05b4-4676-a7ab-a433a0a39c74",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '1da0c0e8331ba61de308d609b442713987a0a009']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--41045163-59a7-4a36-b59d-d96646ff2c85",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--14f76f2c-05b4-4676-a7ab-a433a0a39c74",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--f84873b6-d0e0-4fde-b2e6-e21332d471a8",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '89f89b0d5e8bb518fd18d70dd0f49b51b17da093']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--c3922bda-1550-46c5-a840-e6a7ade308a3",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--f84873b6-d0e0-4fde-b2e6-e21332d471a8",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--7a34baf6-9fb4-446e-b00b-d523b62c2505",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '0f70c58e9d7cd087430f46d0f317b2dbd017b9bb']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--d0630657-4276-4c06-bb8e-cf0f2becf4aa",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--7a34baf6-9fb4-446e-b00b-d523b62c2505",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--5505feeb-c841-4213-af31-8cc358771618",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'ba9483c2a7b2ff488ede55851ac67da71c10f394']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--6e70dd21-d906-4a0c-a91b-2503bb52994f",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--5505feeb-c841-4213-af31-8cc358771618",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--0d4fccf5-24cd-4ec5-9b9e-16fce5f6c01d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '900f81a01127581a6d6138db6d20a1162e66b0dd']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--72dc2278-3366-4796-a4c5-329643e3680b",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--0d4fccf5-24cd-4ec5-9b9e-16fce5f6c01d",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--163d19a4-327f-4e9e-a4ec-ea61c968b6d5",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '7f2451bdaa35f47cb66a6706aae845af58323b5a']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--f63accd3-677b-4061-b347-1a87373581e7",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--163d19a4-327f-4e9e-a4ec-ea61c968b6d5",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--837eaf12-e4fd-4f2a-890a-17eff56bf3b9",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '4a5c0b2d147b82d493e44489de31a5c74728cf01']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--11e4be01-5dd5-44aa-9ef4-c538c590a672",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--837eaf12-e4fd-4f2a-890a-17eff56bf3b9",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--5fe244df-77ef-4680-9581-824437d06700",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '5aa4ff3d0d4ddaaaef05ea9b25d0d81888004334']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--199819ec-626e-4473-8e30-2523368e55b5",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--5fe244df-77ef-4680-9581-824437d06700",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--e6ec90c4-9b07-41cc-9eae-88d46ade5ae5",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'f58a20ba390b5d4517658283e235c75f15733821']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--e90d5b1a-b919-422b-af7b-f85242262385",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--e6ec90c4-9b07-41cc-9eae-88d46ade5ae5",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--a1025eea-32d5-4bc7-b0b0-9b6752bdba42",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'e47fc9047806d99f8372ec410c742c9e2af824fe']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--3cc812dd-c6c4-4281-98b1-83f97d79d665",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--a1025eea-32d5-4bc7-b0b0-9b6752bdba42",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--574ce363-7d25-487c-b87a-ede383696afe",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BadBazaar",
+			"description":"This file hash indicates that a sample of BadBazaar is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '5b4cf5bd385c332147d4b41ae9e9a0cee231137c']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--dfa5bb07-d10a-44bb-82cd-855cd06ca424",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--574ce363-7d25-487c-b87a-ede383696afe",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--7ab6934d-aef3-412e-ac39-65ed99889996",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for BadBazaar",
+			"description":"Malicious C2 that indicates activity of BadBazaar.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'tal.yumoftion.com']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--74b1ada9-3480-4638-b8d4-e81831d455bd",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--7ab6934d-aef3-412e-ac39-65ed99889996",
+			"target_ref":"malware--180debf9-c3ed-4ea4-ab03-a76e44e542c3"
+		}
+	]
+}

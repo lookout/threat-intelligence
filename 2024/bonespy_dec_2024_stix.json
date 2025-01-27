@@ -1,0 +1,655 @@
+{
+	"type":"bundle",
+	"id":"bundle--c77d718d-51d2-403f-8836-ca8a9d2e825f",
+	"objects":[
+		{
+			"type":"malware",
+			"id":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"BoneSpy Surveillanceware",
+			"labels":["spyware"],
+			"description":"Malware samples of the BoneSpy with continued deployment against former Soviet republics, Surveillance, Android."
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--b268ee08-235c-4de3-8018-7d834833e852",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"Malicious C2 for BoneSpy",
+			"description":"Malicious C2 that indicates activity of BoneSpy.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'fiordmoss.ddns.net']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--2484dc29-40b9-4fc7-a05b-6659815d4cc7",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--b268ee08-235c-4de3-8018-7d834833e852",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--cfd61c9c-e2cd-45b1-b662-1cfe4e54613a",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"Malicious C2 for BoneSpy",
+			"description":"Malicious C2 that indicates activity of BoneSpy.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'winterknowing.ddns.net']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--cc3f73a6-4ba5-4484-a8a7-25d738684075",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--cfd61c9c-e2cd-45b1-b662-1cfe4e54613a",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--99ef4de1-c3c5-4355-9bf3-3fd9afa5ee53",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"Malicious C2 for BoneSpy",
+			"description":"Malicious C2 that indicates activity of BoneSpy.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'weeklyoptional.ddns.net']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--7c9d15db-fb48-43c7-b110-fbcc1c43b132",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--99ef4de1-c3c5-4355-9bf3-3fd9afa5ee53",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--3bbfeb11-4b2f-4849-ab32-8a2173b698d2",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"Malicious C2 for BoneSpy",
+			"description":"Malicious C2 that indicates activity of BoneSpy.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'goos.pw']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--27c69e85-de62-4469-be8e-26040696af24",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--3bbfeb11-4b2f-4849-ab32-8a2173b698d2",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--f0899307-726b-4577-97db-7a04f3e9b6b3",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"File Hash for BoneSpy",
+			"description":"This file hash indicates that a sample of BoneSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '114d2a25bb4c296f8ef5bfca4e8192b5aca9b169099ac6291139e68cfc7e37dc']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--0071b9bf-bb47-4e60-91c9-868fa74e0c3f",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--f0899307-726b-4577-97db-7a04f3e9b6b3",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--53594356-34d3-4c98-81dc-ced4361f1ecb",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"File Hash for BoneSpy",
+			"description":"This file hash indicates that a sample of BoneSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '8af63d7aa2142701116207f61e3e01c9e0239731e5bbbdf79114889b56ca46ea']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--dd205718-235c-4cd5-ae73-1f46a7a0dba0",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--53594356-34d3-4c98-81dc-ced4361f1ecb",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--4cc22691-3751-4ba4-be20-6113cabaf010",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"File Hash for BoneSpy",
+			"description":"This file hash indicates that a sample of BoneSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = 'fd5fa718a7411b18845b76d7007db6b4431b1a2ce2f8b2cc047c0fff7c46161f']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--d424a535-a414-401e-b5d1-d9b328acb507",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--4cc22691-3751-4ba4-be20-6113cabaf010",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--45bcbfeb-b94b-4954-8291-2e7a10fcd3b9",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"File Hash for BoneSpy",
+			"description":"This file hash indicates that a sample of BoneSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '7de055018723b612dfa66a90c83a69afce7db918fb7fa88619833557c4fc61c3']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--e9e0dc82-184c-4bfe-9460-51d0454f5ff5",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--45bcbfeb-b94b-4954-8291-2e7a10fcd3b9",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--4ad00432-f7fd-4e6c-8e03-30d7e40481df",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"File Hash for BoneSpy",
+			"description":"This file hash indicates that a sample of BoneSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '551b8917f57c5cf8cd0a34c1d500db1dd4aed8ec8f31d28a5fabc4720e5b89a3']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--143079cb-67f4-4559-81da-7ccb3b139499",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--4ad00432-f7fd-4e6c-8e03-30d7e40481df",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--98875f48-ede0-495e-8cde-1af10b260da8",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"File Hash for BoneSpy",
+			"description":"This file hash indicates that a sample of BoneSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '533ff7ba5eb5329cb860486a952259a4dfc0d74654831eb08dbcadc1ae5ca333']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--88881b14-0b01-49ee-ae98-b748839e82b2",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--98875f48-ede0-495e-8cde-1af10b260da8",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--4cadcd3e-9d74-4614-b883-1d985a22a94a",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"File Hash for BoneSpy",
+			"description":"This file hash indicates that a sample of BoneSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = 'acede5fa46e09803adf9de5e731ca690dc7b02b69a63bacd4836429d289ec4f0']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--1d97356f-204b-4583-b4ad-93d118f3ec82",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--4cadcd3e-9d74-4614-b883-1d985a22a94a",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--2d1ebd93-624b-4e75-9c1a-0204371616af",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"File Hash for BoneSpy",
+			"description":"This file hash indicates that a sample of BoneSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = 'a3b0c178ab5e6e4b3442d358a78df7409461fa48f6ca8e63b730b0a455a89b18']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--8408f3dd-6406-47e0-a03c-bc72c97d505f",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--2d1ebd93-624b-4e75-9c1a-0204371616af",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--f337dc69-83b8-4612-8983-4b3bffcb2073",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"File Hash for BoneSpy",
+			"description":"This file hash indicates that a sample of BoneSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '2ef72c67cf76e8162f5e4bf0a743ac4ed756e153593c430cedf2043a310b24e8']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--3ff02960-7aa5-45c5-a25d-ed9818b9e76d",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--f337dc69-83b8-4612-8983-4b3bffcb2073",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--5d0ac0ec-69d7-4758-aa00-8d8d5af42e33",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"File Hash for BoneSpy",
+			"description":"This file hash indicates that a sample of BoneSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '5b7b5a2995c102121695225797f12f0b860500150472126b3b465b51ccad07bd']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--06d8f827-4be8-43db-a6e1-2cfdf7d463b1",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--5d0ac0ec-69d7-4758-aa00-8d8d5af42e33",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--23cb1ef1-d8c6-43c4-9f7e-1e58ea010f39",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"File Hash for BoneSpy",
+			"description":"This file hash indicates that a sample of BoneSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '9dd73c9caa547358b6fe5acddf59443d7bf0ffc5b92867e9b67edd5bb2a9f786']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--52586503-520a-4683-874f-9981eece3815",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--23cb1ef1-d8c6-43c4-9f7e-1e58ea010f39",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--ae8e1daf-27eb-4c3f-960f-e9950ee31706",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"File Hash for BoneSpy",
+			"description":"This file hash indicates that a sample of BoneSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '3b5794ca6051740fff6e1b449db06f169df2749f81aaf4c329e18b12afb9a5c7']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--74e42566-d70f-4af6-a26f-bddd50ade7fd",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--ae8e1daf-27eb-4c3f-960f-e9950ee31706",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--ba11cf6a-01bd-43c3-8972-aef519e927ea",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"File Hash for BoneSpy",
+			"description":"This file hash indicates that a sample of BoneSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = 'dfaa47ed20021c4f84bf68820a618f9e8a2e077d36b6d7281e8724b2124c7825']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--697715a3-da97-4184-a02d-9c62fef3185b",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--ba11cf6a-01bd-43c3-8972-aef519e927ea",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--a68bb83d-1a90-4fef-bbc2-e3352f01d6c4",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"File Hash for BoneSpy",
+			"description":"This file hash indicates that a sample of BoneSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = 'f948b650bdc63cf9b1781d651974a9c54d2b2981d3bf4b882f48c3a406272470']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--bf5d6deb-a3a8-44fa-96ee-71c8c81667ec",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--a68bb83d-1a90-4fef-bbc2-e3352f01d6c4",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--807de97e-e763-4819-a0db-3bbb2665107c",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"File Hash for BoneSpy",
+			"description":"This file hash indicates that a sample of BoneSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = 'c82f0a1546bf7025993f2e7da33d1a741d91c78b01268a2d44afa31e66eb2fe8']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--5b707f33-1e54-431b-ac90-c568208c5210",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--807de97e-e763-4819-a0db-3bbb2665107c",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--280ddc01-0f3b-4ea4-917b-b4a6ed1aef1e",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"File Hash for BoneSpy",
+			"description":"This file hash indicates that a sample of BoneSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = 'de3a0b30b8976da933fe6bf88e6e7ab2386a967ada2599ef1dc1b12100a37694']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--b92eec31-1d18-47c5-9d0f-3f2395f23295",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--280ddc01-0f3b-4ea4-917b-b4a6ed1aef1e",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--dd74aac7-daaa-4490-8066-834fe638e046",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"File Hash for BoneSpy",
+			"description":"This file hash indicates that a sample of BoneSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = 'bd65dbd61f27a90c0770d5f8cc02cfa7d9552f0fb300868611d69972b42d3f1c']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--ed70d800-81a6-44d1-8125-472b162f9813",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--dd74aac7-daaa-4490-8066-834fe638e046",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--b47c91b8-e625-4594-934b-b7dc5e218ef1",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"File Hash for BoneSpy",
+			"description":"This file hash indicates that a sample of BoneSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = 'bed2cf8758d86daaf25475cc6ed1c71fd3f9a922247c42fe246f8542c76d8c15']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--e28e631e-0bb8-414d-ae27-dcc356fe1898",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--b47c91b8-e625-4594-934b-b7dc5e218ef1",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--8e730321-8ce1-40a9-ba5b-3b5f12eae44f",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"File Hash for BoneSpy",
+			"description":"This file hash indicates that a sample of BoneSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '255996e1aa2a7514b167d9c940d7c8ff3c34393e97e43bda319eb92ea626c4eb']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--e1f8bea0-841c-49e9-b7e3-76caf72d9fd0",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--8e730321-8ce1-40a9-ba5b-3b5f12eae44f",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--25f68d76-aa8e-43bf-88e3-1e92d0a8e8b4",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"File Hash for BoneSpy",
+			"description":"This file hash indicates that a sample of BoneSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '46b10de13887c36d61517125bec87c4557f325114221291a3ac7142cbc15de29']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--6f5e9618-7149-4b15-a5e8-0abaad72f379",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--25f68d76-aa8e-43bf-88e3-1e92d0a8e8b4",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--b7219ff2-0d11-4fa3-9451-fec41cceb16e",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"File Hash for BoneSpy",
+			"description":"This file hash indicates that a sample of BoneSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '6bfdc285dee8ae3e3dade52a34f5d178163e4a08904b651ff5c906e78ddccec0']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--74a50efd-c794-46ab-b54c-479ad7fb5687",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--b7219ff2-0d11-4fa3-9451-fec41cceb16e",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--156914fb-5464-4aa5-89f8-c35badf15283",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"File Hash for BoneSpy",
+			"description":"This file hash indicates that a sample of BoneSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = 'e0c5656ca9877b37e92f5208caf9c65365e9d35ea6eb351915eb3efee235db31']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--11634ccb-d958-4ad9-b9c6-5248308a3cf4",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--156914fb-5464-4aa5-89f8-c35badf15283",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--7bd47af3-e88b-47b7-87bf-40207f43fc6a",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"File Hash for BoneSpy",
+			"description":"This file hash indicates that a sample of BoneSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '30429e95b9318816709e23488c77e364a294b6f5f7e3ee414a6a2bef74620ca6']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--0ddea56c-a12b-4925-b13f-516ef77fb27e",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--7bd47af3-e88b-47b7-87bf-40207f43fc6a",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--d13e4e57-d98e-4fe9-aec7-e46ae9004ee3",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"File Hash for BoneSpy",
+			"description":"This file hash indicates that a sample of BoneSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '278c9819583ce64913882d425c1d7634307b290709e0143e9268f8f999dacfba']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--3e068a67-26ba-452b-8c75-8e7329929db7",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--d13e4e57-d98e-4fe9-aec7-e46ae9004ee3",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--0fd40c85-008e-4089-863d-5bf584921627",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"File Hash for BoneSpy",
+			"description":"This file hash indicates that a sample of BoneSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '3a4fa698536111f377030a5d794851d2e23b18d67e6d440ce883b9906d65037d']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--3d7fddc8-e778-4d41-9d21-12a73d031738",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--0fd40c85-008e-4089-863d-5bf584921627",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--3e64f0ee-2082-45c0-9236-17facf135f22",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"File Hash for BoneSpy",
+			"description":"This file hash indicates that a sample of BoneSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '629ca39d2c90ff8b343ba1f4cfae11bbc2f61ca6bae80bd093f22efbcf4e4770']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--b37a58d8-3c96-4bd7-9670-c7cdcfe05023",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--3e64f0ee-2082-45c0-9236-17facf135f22",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--e38bab5e-23ac-45ab-8815-e1a3c278a108",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"File Hash for BoneSpy",
+			"description":"This file hash indicates that a sample of BoneSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '633875ce353391ea8bd4c92d8f3f57a525ff0abf9eba8d78528de616b1ee7118']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--d3880b6b-ee2d-4af7-a8bf-04dced5d1b58",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--e38bab5e-23ac-45ab-8815-e1a3c278a108",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--043cf342-9669-4498-8dfb-55ecca36b8d4",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"name":"File Hash for BoneSpy",
+			"description":"This file hash indicates that a sample of BoneSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = 'eadd9c3e3f7a1c5e008ca157cb850aa72d283f702da2ab4daf0e4af4d926ab3e']",
+			"valid_from":"2024-12-11T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--99780364-4d7c-469f-8a0c-eb327237b1ea",
+			"created":"2024-12-11T00:00:00.000Z",
+			"modified":"2024-12-11T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--043cf342-9669-4498-8dfb-55ecca36b8d4",
+			"target_ref":"malware--8c2fd069-9bfd-4f08-b845-d96e1cace1c1"
+		}
+	]
+}

@@ -1,0 +1,635 @@
+{
+	"type":"bundle",
+	"id":"bundle--b60d8450-f88d-4476-a23e-a754af1c402b",
+	"objects":[
+		{
+			"type":"malware",
+			"id":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Hermit Surveillanceware",
+			"labels":["spyware"],
+			"description":"Commercial lawful intercept tool, Italian, Surveillanceware, Android."
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--47d284d8-8512-409e-adcc-93a9eb330446",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Hermit",
+			"description":"This file hash indicates that a sample of Hermit is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'ca101ddfcf6746ffa171dc3a0545ebd017bf689a']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--b6e208f1-db98-41c5-a135-44ad8a1664b6",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--47d284d8-8512-409e-adcc-93a9eb330446",
+			"target_ref":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--0f52362d-0d9b-4c17-907b-6c697432fe96",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Hermit",
+			"description":"This file hash indicates that a sample of Hermit is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'b1dfb2be760d209846f2147ce32560954d2f71b5']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--7a146191-76e0-4b9d-af14-9c9e40185afc",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--0f52362d-0d9b-4c17-907b-6c697432fe96",
+			"target_ref":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--e70e026e-270c-43db-8181-8b482e4f0562",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Hermit",
+			"description":"This file hash indicates that a sample of Hermit is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'cf610aae906ffcfd52c08d6ba03d9ce2c9996ac8']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--5bf357b5-d255-4dd0-8128-7406288bca76",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--e70e026e-270c-43db-8181-8b482e4f0562",
+			"target_ref":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--c0a6f2d5-db91-4330-a15a-c1e5d8a901de",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Hermit",
+			"description":"This file hash indicates that a sample of Hermit is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '22f49fa7fe1506d2639f08e9ae198e262396c052']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--6e47374e-2894-4d4c-8305-2858c2ebc1c5",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--c0a6f2d5-db91-4330-a15a-c1e5d8a901de",
+			"target_ref":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--b0a20b30-53d9-44bc-b353-ed6cf93dd241",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Hermit",
+			"description":"This file hash indicates that a sample of Hermit is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '97ead8dec0bf601ba452b9e45bb33cb4a3bf830f']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--ff090047-0ecb-487b-8842-a159d59a0778",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--b0a20b30-53d9-44bc-b353-ed6cf93dd241",
+			"target_ref":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--206ff4c6-1d89-44de-a9df-25294e9d1a9d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Hermit",
+			"description":"This file hash indicates that a sample of Hermit is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '527141e1ee5d76b55b7c7640f7dcf222cb93e010']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--cded7cfa-b470-4e45-aea0-ba67c2b8957e",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--206ff4c6-1d89-44de-a9df-25294e9d1a9d",
+			"target_ref":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--e67fda22-468c-4f09-ab8a-835633c746bf",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Hermit",
+			"description":"This file hash indicates that a sample of Hermit is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '4f8145805eec0c4d8fc32b020744d4f3f1e39ccb']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--fdb99576-5e90-4493-9c40-518301223b58",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--e67fda22-468c-4f09-ab8a-835633c746bf",
+			"target_ref":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--9c5fe57e-26df-4a90-9e04-c7975b7f948b",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Hermit",
+			"description":"This file hash indicates that a sample of Hermit is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '9f949b095c2ab4b305b2ea168ae376adbba72ffb']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--ef99dded-2dd7-4627-a1a0-245f15fa7e04",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--9c5fe57e-26df-4a90-9e04-c7975b7f948b",
+			"target_ref":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--82721198-e3b7-44dd-89f0-03b4a5179acd",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious IP for Hermit",
+			"description":"Malicious IP for Hermit",
+			"labels":["malicious-activity"],
+			"pattern":"[ipv4-addr:value = '2.229.68.182']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--cd795756-7359-4c47-af6b-d585bd82dae8",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--82721198-e3b7-44dd-89f0-03b4a5179acd",
+			"target_ref":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--abdb4194-4271-48d1-bdd4-186b587e2c50",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious IP for Hermit",
+			"description":"Malicious IP for Hermit",
+			"labels":["malicious-activity"],
+			"pattern":"[ipv4-addr:value = '2.228.150.86']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--c85bc3bc-661e-466a-898f-7559e61516ff",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--abdb4194-4271-48d1-bdd4-186b587e2c50",
+			"target_ref":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--a78829a1-f0a9-4573-8b7b-6a2d09897fde",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious IP for Hermit",
+			"description":"Malicious IP for Hermit",
+			"labels":["malicious-activity"],
+			"pattern":"[ipv4-addr:value = '93.57.84.78']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--ca99bc0b-d419-4f68-812a-072c617734d6",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--a78829a1-f0a9-4573-8b7b-6a2d09897fde",
+			"target_ref":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--e39f0378-59dc-489d-befa-7e3ed3b9d5bf",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious IP for Hermit",
+			"description":"Malicious IP for Hermit",
+			"labels":["malicious-activity"],
+			"pattern":"[ipv4-addr:value = '93.39.197.234']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--9683d4ae-7ea2-4833-a91e-f5b035d62a38",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--e39f0378-59dc-489d-befa-7e3ed3b9d5bf",
+			"target_ref":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--59dcd354-ffb1-4288-baa5-f9feacb1164f",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious IP for Hermit",
+			"description":"Malicious IP for Hermit",
+			"labels":["malicious-activity"],
+			"pattern":"[ipv4-addr:value = '45.148.30.122']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--5d903ef3-9877-407c-998f-2cad6b3c7605",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--59dcd354-ffb1-4288-baa5-f9feacb1164f",
+			"target_ref":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--9af5f2d4-85d4-47c0-9801-e8bbba21049a",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious IP for Hermit",
+			"description":"Malicious IP for Hermit",
+			"labels":["malicious-activity"],
+			"pattern":"[ipv4-addr:value = '85.159.27.61']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--e542d528-19c8-4c99-ad4b-a9269f40db5f",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--9af5f2d4-85d4-47c0-9801-e8bbba21049a",
+			"target_ref":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--9ed5b98a-4051-424d-bc23-858453a6ba99",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for Hermit",
+			"description":"Malicious C2 that indicates activity of Hermit.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = '119-tim.info']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--9785eacc-edd3-46f8-998e-3644bf0df1b3",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--9ed5b98a-4051-424d-bc23-858453a6ba99",
+			"target_ref":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--2a68f4cb-693d-4592-a5a1-d4fe8caf774b",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for Hermit",
+			"description":"Malicious C2 that indicates activity of Hermit.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = '133-tre.info']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--fc99f0e7-1b17-4929-8dec-50769c5dbe55",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--2a68f4cb-693d-4592-a5a1-d4fe8caf774b",
+			"target_ref":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--9d19c82f-ffd7-4892-82cd-fceaf4473ba1",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for Hermit",
+			"description":"Malicious C2 that indicates activity of Hermit.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = '146-fastweb.info']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--fb6e0e2b-3298-4578-a907-69bde468366f",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--9d19c82f-ffd7-4892-82cd-fceaf4473ba1",
+			"target_ref":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--92ae325b-9c48-40b2-9703-3c3daa980d8d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for Hermit",
+			"description":"Malicious C2 that indicates activity of Hermit.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = '155-wind.info']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--4f03d128-1fcf-40f1-bf8a-355cad06ec63",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--92ae325b-9c48-40b2-9703-3c3daa980d8d",
+			"target_ref":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--ac8bcd53-bf01-4fe8-885d-73cd93d1f399",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for Hermit",
+			"description":"Malicious C2 that indicates activity of Hermit.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = '159-windtre.info']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--ecb606d9-46c2-4ac1-a140-afecc58db52d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--ac8bcd53-bf01-4fe8-885d-73cd93d1f399",
+			"target_ref":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--ac81871f-aecc-4147-85cd-a29a9837430d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for Hermit",
+			"description":"Malicious C2 that indicates activity of Hermit.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'iliad.info']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--94d86b9a-a012-49b4-be16-0073e2fbbea0",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--ac81871f-aecc-4147-85cd-a29a9837430d",
+			"target_ref":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--4d44bdc0-b642-45de-b3c3-4ae22ef5a71b",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for Hermit",
+			"description":"Malicious C2 that indicates activity of Hermit.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'amex-co.info']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--51e8f015-3517-4758-8653-7a41cee0efed",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--4d44bdc0-b642-45de-b3c3-4ae22ef5a71b",
+			"target_ref":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--b7faff4d-0514-4ec2-b0db-abde1ad7bc80",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for Hermit",
+			"description":"Malicious C2 that indicates activity of Hermit.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'cloud-apple.info']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--76ca3426-4345-4777-939c-3a0b51f728d8",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--b7faff4d-0514-4ec2-b0db-abde1ad7bc80",
+			"target_ref":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--a9e171c8-b27e-406a-a705-3b69b69f7134",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for Hermit",
+			"description":"Malicious C2 that indicates activity of Hermit.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'fb-techsupport.com']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--c360240a-01f7-42d9-9dc3-47ec567bb100",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--a9e171c8-b27e-406a-a705-3b69b69f7134",
+			"target_ref":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--b53ff0ce-7382-47a7-bc82-6dff82442125",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for Hermit",
+			"description":"Malicious C2 that indicates activity of Hermit.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'milf.house']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--9160732a-a3e8-4e3b-a5e2-8e382beba053",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--b53ff0ce-7382-47a7-bc82-6dff82442125",
+			"target_ref":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--6c323826-d2d2-4f77-ad37-76ac4115de96",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for Hermit",
+			"description":"Malicious C2 that indicates activity of Hermit.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'mobdemo.info']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--df0dc009-c62b-4b1e-9e79-0e72699d73a9",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--6c323826-d2d2-4f77-ad37-76ac4115de96",
+			"target_ref":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--4bad2ecd-61e4-403f-849a-fac5a5d7845f",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for Hermit",
+			"description":"Malicious C2 that indicates activity of Hermit.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'mobilepays.info']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--1f807ffb-24b5-47ad-b9b4-209d648cad1e",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--4bad2ecd-61e4-403f-849a-fac5a5d7845f",
+			"target_ref":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--2b723430-faa3-44cc-a06e-a99a54c4e141",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for Hermit",
+			"description":"Malicious C2 that indicates activity of Hermit.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'kena-mobile.info']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--dafd638a-7237-4a45-9b8c-805611de5d29",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--2b723430-faa3-44cc-a06e-a99a54c4e141",
+			"target_ref":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--5aae4439-0c0f-4330-a029-bd0e66632bfc",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for Hermit",
+			"description":"Malicious C2 that indicates activity of Hermit.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'poste-it.info']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--d55aacac-d2e3-4690-9b7e-d2322ff71d29",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--5aae4439-0c0f-4330-a029-bd0e66632bfc",
+			"target_ref":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--9149a3d7-19b1-4e89-b8e7-529ba22a24ea",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for Hermit",
+			"description":"Malicious C2 that indicates activity of Hermit.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'rojavanetwork.info']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--5f6e5c8f-ea7a-4262-a67a-25fb06a5f5c5",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--9149a3d7-19b1-4e89-b8e7-529ba22a24ea",
+			"target_ref":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--c949e79a-755f-48cf-9e47-531b88e3aa7f",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for Hermit",
+			"description":"Malicious C2 that indicates activity of Hermit.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'store-apple.info']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--d9c6e482-d6c9-4dfe-b1dd-364368836da5",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--c949e79a-755f-48cf-9e47-531b88e3aa7f",
+			"target_ref":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--d685a46d-c37d-45e3-b910-9813a094a368",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for Hermit",
+			"description":"Malicious C2 that indicates activity of Hermit.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'wind-h3g.info']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--b3a0faaa-89d2-4446-bdd4-32bd042e9730",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--d685a46d-c37d-45e3-b910-9813a094a368",
+			"target_ref":"malware--23bd65ce-c4f0-4308-8076-8258f25ece53"
+		}
+	]
+}

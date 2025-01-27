@@ -1,0 +1,575 @@
+{
+	"type":"bundle",
+	"id":"bundle--e213f90e-c312-4b97-9d22-1e585802cef5",
+	"objects":[
+		{
+			"type":"malware",
+			"id":"malware--d2082e9e-1e24-48ba-8af3-2e7bfc9b6350",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"BouldSpy Surveillanceware",
+			"labels":["spyware"],
+			"description":"Iranian surveillance tool attributed with moderate confidence to Law Enforcement Command of the Islamic Republic of Iran , Surveillanceware, Android."
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--a345ac22-810a-45ff-8fae-1e9e650b2616",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BouldSpy",
+			"description":"This file hash indicates that a sample of BouldSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '5168610b73f50661b998e95a74be25bfe749b6ef']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--59220ad1-d6c8-49e5-bad1-ac3467e2c29b",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--a345ac22-810a-45ff-8fae-1e9e650b2616",
+			"target_ref":"malware--d2082e9e-1e24-48ba-8af3-2e7bfc9b6350"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--5f9cab10-8748-4cbf-925e-3ed39bf932ec",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BouldSpy",
+			"description":"This file hash indicates that a sample of BouldSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'af999714aec75a64529c59f1e8de4c669adfa97a']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--29da7419-33ba-4f06-8e98-c20ba1718e39",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--5f9cab10-8748-4cbf-925e-3ed39bf932ec",
+			"target_ref":"malware--d2082e9e-1e24-48ba-8af3-2e7bfc9b6350"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--f127e642-263d-4a9d-bed9-661d598ae3ab",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BouldSpy",
+			"description":"This file hash indicates that a sample of BouldSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '965d118cb80ccdbc6e95e530a314cb4b85ae1b42']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--f5dfe921-f408-4bfd-b35b-93e68c771e55",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--f127e642-263d-4a9d-bed9-661d598ae3ab",
+			"target_ref":"malware--d2082e9e-1e24-48ba-8af3-2e7bfc9b6350"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--02942e11-6171-48a4-83f1-b04c5ad6c2f3",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BouldSpy",
+			"description":"This file hash indicates that a sample of BouldSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'f3b135555ae731b5499502f3b69724944ab367d5']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--202039fb-4497-434a-9de1-9c8ef6bc364e",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--02942e11-6171-48a4-83f1-b04c5ad6c2f3",
+			"target_ref":"malware--d2082e9e-1e24-48ba-8af3-2e7bfc9b6350"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--fb3c00f4-626b-4005-ac35-4b2aaa9f02cf",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BouldSpy",
+			"description":"This file hash indicates that a sample of BouldSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '02ac97b090a6b2a1b14bad839deec7d966f5642c']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--d9799330-7a7b-4d7b-aaa1-bb9cc83140bf",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--fb3c00f4-626b-4005-ac35-4b2aaa9f02cf",
+			"target_ref":"malware--d2082e9e-1e24-48ba-8af3-2e7bfc9b6350"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--ec829065-a4e3-4c16-9c86-5187a1d09dc1",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BouldSpy",
+			"description":"This file hash indicates that a sample of BouldSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'da3c0cfd432b53a602ce7dc5165848b88411d9c9']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--0de2b324-1613-4518-9c59-65201b1e7513",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--ec829065-a4e3-4c16-9c86-5187a1d09dc1",
+			"target_ref":"malware--d2082e9e-1e24-48ba-8af3-2e7bfc9b6350"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--07343661-6800-494a-98d0-5f5d2b97ea72",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BouldSpy",
+			"description":"This file hash indicates that a sample of BouldSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '75a6c724f43168346b177a60c81ca179a436246f']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--acb907e4-0413-4217-bba4-3c27292cb3bb",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--07343661-6800-494a-98d0-5f5d2b97ea72",
+			"target_ref":"malware--d2082e9e-1e24-48ba-8af3-2e7bfc9b6350"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--0d1086e4-831f-4d51-af8b-f89a9c9617d1",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BouldSpy",
+			"description":"This file hash indicates that a sample of BouldSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '08fd24e4514793b29b7bd2c29f9e5c15ffc9bada']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--4f67f80f-7537-46af-be70-f079774f7e26",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--0d1086e4-831f-4d51-af8b-f89a9c9617d1",
+			"target_ref":"malware--d2082e9e-1e24-48ba-8af3-2e7bfc9b6350"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--bc71bf9f-322c-4f02-9c10-c9b29062ad33",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BouldSpy",
+			"description":"This file hash indicates that a sample of BouldSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '73c93be188f88755ed690266063223e141fdb9ff']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--82561df6-70a8-4bf9-9f38-ba8c9c3813c0",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--bc71bf9f-322c-4f02-9c10-c9b29062ad33",
+			"target_ref":"malware--d2082e9e-1e24-48ba-8af3-2e7bfc9b6350"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--091db47e-6de9-4eea-88ad-5141e9959767",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BouldSpy",
+			"description":"This file hash indicates that a sample of BouldSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '7537ac1658100efaf6558eed4a3f732208b393ab']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--53f05ebb-e3ae-4e2e-bf03-7bcd3dbbf871",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--091db47e-6de9-4eea-88ad-5141e9959767",
+			"target_ref":"malware--d2082e9e-1e24-48ba-8af3-2e7bfc9b6350"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--5adad0a7-1ce3-4842-be2e-ae3b619bf0e1",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BouldSpy",
+			"description":"This file hash indicates that a sample of BouldSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '7208dc915a800fe5c5eaf599084147a8afeba991']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--bec8d7bd-6dcd-440e-9927-e8a6272bff45",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--5adad0a7-1ce3-4842-be2e-ae3b619bf0e1",
+			"target_ref":"malware--d2082e9e-1e24-48ba-8af3-2e7bfc9b6350"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--e848dc05-1ffb-44ea-88c0-e03e97fed5c4",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BouldSpy",
+			"description":"This file hash indicates that a sample of BouldSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '8afc495b6632ce9ef812a971f71ae82d39d7e7e9']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--f831c5c2-f004-460f-a474-e8b4d5805ad8",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--e848dc05-1ffb-44ea-88c0-e03e97fed5c4",
+			"target_ref":"malware--d2082e9e-1e24-48ba-8af3-2e7bfc9b6350"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--9dcd5ed3-b854-4701-857c-4755cabffc62",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BouldSpy",
+			"description":"This file hash indicates that a sample of BouldSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '43f5506b960914ab76ffaf531cdd51dd86df22f2']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--49ed7e22-ea69-4088-b406-3b8f0b5f08b1",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--9dcd5ed3-b854-4701-857c-4755cabffc62",
+			"target_ref":"malware--d2082e9e-1e24-48ba-8af3-2e7bfc9b6350"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--72e0d277-90d7-4c02-a55b-fddd016fcf06",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BouldSpy",
+			"description":"This file hash indicates that a sample of BouldSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'dd66dcb8db678d10f9589a12745ec2e575e4f5eb']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--82758159-90cc-4997-8767-5a1f5ceb2894",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--72e0d277-90d7-4c02-a55b-fddd016fcf06",
+			"target_ref":"malware--d2082e9e-1e24-48ba-8af3-2e7bfc9b6350"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--432e7461-07f6-45cb-ad22-d05838bbece2",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BouldSpy",
+			"description":"This file hash indicates that a sample of BouldSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '69894818ba1dc8bfffe9fb384abf77d991379aaa']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--488d7a1c-8d8c-446e-952d-ba0cd4cd86de",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--432e7461-07f6-45cb-ad22-d05838bbece2",
+			"target_ref":"malware--d2082e9e-1e24-48ba-8af3-2e7bfc9b6350"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--d7d51f14-d614-469d-86b8-983862fd103c",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BouldSpy",
+			"description":"This file hash indicates that a sample of BouldSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'db650b0eaffa21b63ce84d31b2bd09720da9491e']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--c291d71c-0695-4338-ac3a-ed7ee6d2cda0",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--d7d51f14-d614-469d-86b8-983862fd103c",
+			"target_ref":"malware--d2082e9e-1e24-48ba-8af3-2e7bfc9b6350"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--97f4b1cc-34a3-4b9c-bc4e-3262dd74c1d9",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BouldSpy",
+			"description":"This file hash indicates that a sample of BouldSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '67a3def7ad736df94c8c50947f785c0926142b69']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--078c1ce8-2b74-4bb9-9057-f69a0473da66",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--97f4b1cc-34a3-4b9c-bc4e-3262dd74c1d9",
+			"target_ref":"malware--d2082e9e-1e24-48ba-8af3-2e7bfc9b6350"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--514c542a-6043-4425-9606-9fd439697c86",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BouldSpy",
+			"description":"This file hash indicates that a sample of BouldSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '63ff362f58c7b6dec8ea365a5dbc6a88ec09dacf']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--fa5c1c21-aa87-47bf-89c2-04efbadf2c72",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--514c542a-6043-4425-9606-9fd439697c86",
+			"target_ref":"malware--d2082e9e-1e24-48ba-8af3-2e7bfc9b6350"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--41485dbe-9874-4228-80af-b351c2945b07",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BouldSpy",
+			"description":"This file hash indicates that a sample of BouldSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'bc826967c90acc08f1f70aa018f5d13f31521b92']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--af4d2e22-353e-4fda-95d3-7e06c8ff80ec",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--41485dbe-9874-4228-80af-b351c2945b07",
+			"target_ref":"malware--d2082e9e-1e24-48ba-8af3-2e7bfc9b6350"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--1857ecf3-f1f5-4686-b0e3-d66232144929",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BouldSpy",
+			"description":"This file hash indicates that a sample of BouldSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '02c4969c45fd7ac913770f9db075eadf9785d3a7']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--cb886a36-03eb-4399-a256-c5dfefe065ff",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--1857ecf3-f1f5-4686-b0e3-d66232144929",
+			"target_ref":"malware--d2082e9e-1e24-48ba-8af3-2e7bfc9b6350"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--acb249be-290d-4b10-bb79-a065530e108f",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BouldSpy",
+			"description":"This file hash indicates that a sample of BouldSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '5446e0cf2de0a888571ef1d521b9ada7b34ef33e']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--1a4275db-297f-457f-a239-09c05f71bd3b",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--acb249be-290d-4b10-bb79-a065530e108f",
+			"target_ref":"malware--d2082e9e-1e24-48ba-8af3-2e7bfc9b6350"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--ed9bb559-6869-4970-aad0-4feefb06e301",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for BouldSpy",
+			"description":"This file hash indicates that a sample of BouldSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '43a92743c8264a8d06724ab80139c0d31e8292ee']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--f4705f32-52c6-4052-a65e-3385ff34bfd0",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--ed9bb559-6869-4970-aad0-4feefb06e301",
+			"target_ref":"malware--d2082e9e-1e24-48ba-8af3-2e7bfc9b6350"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--140d4d58-d928-4820-9a70-7085a8aa1b17",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for BouldSpy",
+			"description":"Malicious C2 that indicates activity of BouldSpy.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = '149.56.92.127']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--68947c49-8636-4da5-a3d3-c0e26c9f4b4c",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--140d4d58-d928-4820-9a70-7085a8aa1b17",
+			"target_ref":"malware--d2082e9e-1e24-48ba-8af3-2e7bfc9b6350"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--01c83d55-4dc2-4ec7-98bd-4bc755ee68da",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for BouldSpy",
+			"description":"Malicious C2 that indicates activity of BouldSpy.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = '192.99.251.49']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--9c5a788d-ba3b-47bd-872d-82a36e632288",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--01c83d55-4dc2-4ec7-98bd-4bc755ee68da",
+			"target_ref":"malware--d2082e9e-1e24-48ba-8af3-2e7bfc9b6350"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--b7c5d1b7-5775-44db-8156-12f0492f4027",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for BouldSpy",
+			"description":"Malicious C2 that indicates activity of BouldSpy.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = '192.99.251.50']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--96d37e67-bda1-4591-b2c7-e8d3ac44ea60",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--b7c5d1b7-5775-44db-8156-12f0492f4027",
+			"target_ref":"malware--d2082e9e-1e24-48ba-8af3-2e7bfc9b6350"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--663d441c-6f97-4631-aa93-4573214fe29e",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for BouldSpy",
+			"description":"Malicious C2 that indicates activity of BouldSpy.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = '192.99.251.51']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--c9ac6f7e-effb-46d4-afe0-fc87d441c80c",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--663d441c-6f97-4631-aa93-4573214fe29e",
+			"target_ref":"malware--d2082e9e-1e24-48ba-8af3-2e7bfc9b6350"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--c419330f-8078-426f-9ae1-975019530d70",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for BouldSpy",
+			"description":"Malicious C2 that indicates activity of BouldSpy.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = '192.99.251.54']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--91be02bf-d6ba-430e-beab-c70987cad1e4",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--c419330f-8078-426f-9ae1-975019530d70",
+			"target_ref":"malware--d2082e9e-1e24-48ba-8af3-2e7bfc9b6350"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--c191f031-43ae-47b8-8812-e318db812145",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for BouldSpy",
+			"description":"Malicious C2 that indicates activity of BouldSpy.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = '84.234.96.117']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--61286750-de10-4b7b-998d-795e61aefd29",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--c191f031-43ae-47b8-8812-e318db812145",
+			"target_ref":"malware--d2082e9e-1e24-48ba-8af3-2e7bfc9b6350"
+		}
+	]
+}

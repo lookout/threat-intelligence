@@ -1,0 +1,1115 @@
+{
+	"type":"bundle",
+	"id":"bundle--d289503c-8dec-46af-bf64-31f4936f6658",
+	"objects":[
+		{
+			"type":"malware",
+			"id":"malware--9adee76f-37d3-4963-9642-9338488ec9b8",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"WyrmSpy Surveillanceware",
+			"labels":["spyware"],
+			"description":"Mobile surveillance tool tied to state-sponsored Chinese hacking group APT41 (aka Double Dragon, Winnti, BARIUM), Android, Surveillance."
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--05fa3807-2ba5-4522-b814-c6233868279b",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '92ddbe438c8c8c1ef82fa5bb02e526db10829736']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--62266894-5580-46dc-8294-e818e2e7efbe",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--05fa3807-2ba5-4522-b814-c6233868279b",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--b9633d19-5ada-4ffe-838e-bb23d0e407f5",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '0b4a9a3f167178054ef9f9a97463cbe31f078c2f']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--6fe9f2ac-5bb0-45dd-b743-b85e2b0a0bc7",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--b9633d19-5ada-4ffe-838e-bb23d0e407f5",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--7ef0ac8d-8254-42f8-8ac9-9e2d0be43372",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'd713b8b0f3764157cc18d5dc1cb0f9c558067728']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--b7430a25-3609-4b3f-a7de-0d0877e8eaea",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--7ef0ac8d-8254-42f8-8ac9-9e2d0be43372",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--f43c2fdf-a429-4b26-8dc5-29a324ef0eec",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '589d88093dad377d46f34415a7f9df11d65b81ed']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--5a5e1675-40ac-4063-a1a4-5250e0f66c13",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--f43c2fdf-a429-4b26-8dc5-29a324ef0eec",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--e7c5634c-e203-4015-b48e-7195ea07c690",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'ab560af6bafff8f58ea5bc53c0391501415aed14']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--e03cc8e4-0067-494a-aa86-ba11ffe8308f",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--e7c5634c-e203-4015-b48e-7195ea07c690",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--14e5f785-6447-43f3-af69-dd5ef14f9ade",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '5891fa6a3a8232192ebd57a171bad29f53c7598c']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--b2bcc76e-2946-4fb1-b398-8b8954d63b42",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--14e5f785-6447-43f3-af69-dd5ef14f9ade",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--465a9a79-81fd-49b8-8627-195c27450f46",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '4405af38c4a6b6130fcf242a11b0ce7963a1be28']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--afc1af61-864c-4ef8-94b2-fac0a8a228a6",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--465a9a79-81fd-49b8-8627-195c27450f46",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--d2eb7605-7ac3-47d7-bc0f-45c65a9e2d0b",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '5c16637848d6f1eb4aa6c5b2a4928a1144cd2113']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--f4d49e71-020d-473f-9c7f-02fe80593351",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--d2eb7605-7ac3-47d7-bc0f-45c65a9e2d0b",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--c8c99b70-90d8-455a-a9aa-8ede72a99ff3",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '2fbd56b1f3859c6d03dec47f8fcee7e37dc303a1']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--1710c5bb-ae7b-4b1f-bd81-d6f1182b6d26",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--c8c99b70-90d8-455a-a9aa-8ede72a99ff3",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--22b65f30-08c3-40b2-aa05-0eff9b532441",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '085191fb59d3933f8447610126600754b35697d4']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--64ee7d1f-320f-4a63-aeb9-fdf94966110d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--22b65f30-08c3-40b2-aa05-0eff9b532441",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--767c0777-86e6-4d71-af4f-e032d5390d36",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'd634a548973c7931e224a41201be0a273d561cff']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--565b4722-25de-4f20-8649-7e13591152b8",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--767c0777-86e6-4d71-af4f-e032d5390d36",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--9db0c7e3-459d-482d-bfb5-9aeaa72f446c",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '971f4cd569ad9f84e654b62bffdba3a4aa21d4e9']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--8b3d387e-00ba-4842-8631-8adc290e9d69",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--9db0c7e3-459d-482d-bfb5-9aeaa72f446c",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--d7fa4280-8c67-4428-9580-902c0b3e2e57",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '331acbdd270acecfa80bc7b4e37629611593de0a']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--a3d3d119-ca44-4798-b2bb-6e1dfaa336fe",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--d7fa4280-8c67-4428-9580-902c0b3e2e57",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--d9e38749-588a-4868-97fe-9538e18768aa",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '215847e4c41144365b94cb924d969dbc5e69052b']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--7cba8567-f367-4067-ac94-209629b300ef",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--d9e38749-588a-4868-97fe-9538e18768aa",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--8e802978-336d-4bc4-872b-dcb0ff7e926a",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'cc351ffbe748b1db43de6dcd40934fe23986e753']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--2e4f83d9-9d73-4cd7-84f1-0e623b328113",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--8e802978-336d-4bc4-872b-dcb0ff7e926a",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--ddea8470-8e0d-48b5-8e2e-0ae2b96f5908",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '85ca8cd21d70668bd2aab9c53163f5e03a0e1a8b']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--8d9a1f81-ca05-4ac4-86c6-736055bf63b5",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--ddea8470-8e0d-48b5-8e2e-0ae2b96f5908",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--cfc19b1b-168f-488d-b97d-c2b0909960bf",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '6dd20f7b9ccbd961d155fff78452303a54714841']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--c12ad87c-b903-45e4-a171-86a6bf6645b7",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--cfc19b1b-168f-488d-b97d-c2b0909960bf",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--fd55f7a5-a305-49f8-8488-4bb7d8c05d16",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'd02f548d354adff645318de6edc45dff23170241']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--d8020284-4185-4767-8818-8a2e6b8a1e4c",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--fd55f7a5-a305-49f8-8488-4bb7d8c05d16",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--32e45287-dc32-40c0-8f66-47b11c24c0cb",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '2438069c43771f0011da2f22b57b8336aaa7562c']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--548368ba-1b69-4e67-ace6-ab37eba3e931",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--32e45287-dc32-40c0-8f66-47b11c24c0cb",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--1f619c8f-11ab-4797-96db-d8882f0c538c",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '5c2fc57609ee28753b78a0f33ba7519fc9fbb6f8']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--4a0e8b20-3914-47a8-8e26-a6747c10e9f4",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--1f619c8f-11ab-4797-96db-d8882f0c538c",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--831d439a-fa06-4e95-a1e5-befbdaab643e",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '53c745956c3501d1daf232aeea5edfb52168c6b4']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--aae28492-9eb1-41c4-be33-0c6a74d7cdb6",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--831d439a-fa06-4e95-a1e5-befbdaab643e",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--465277fd-b577-4cc2-a329-5aaf5fc161d9",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'dfff9ae245cc0beed8fdf409c00ec758d7d2678f']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--97c55e17-8177-43a7-8011-a59734d4d693",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--465277fd-b577-4cc2-a329-5aaf5fc161d9",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--6ada001b-d1b3-45d5-b720-c3b29e2dbb88",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '517ec909bc9e308b44d59dfd144188d1e23f57bc']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--a3393368-a43c-4ac1-aa6e-a024d4e04606",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--6ada001b-d1b3-45d5-b720-c3b29e2dbb88",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--42c08ef1-25ea-4f7f-a163-641ee7daf38d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '232b868e36f064b4151e4386835642fc8bf07e0b']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--fd151dbc-0033-4dd6-8e5c-7ef2fe3a7f91",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--42c08ef1-25ea-4f7f-a163-641ee7daf38d",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--2119f64d-9179-4d05-90a4-3fb8104c3bad",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '92ddbe438c8c8c1ef82fa5bb02e526db10829736']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--965e73b1-6bd5-49c7-b9f4-3b0d741e6172",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--2119f64d-9179-4d05-90a4-3fb8104c3bad",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--894e20f4-a102-4f86-b6cb-f0c929388b24",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '9b6297825a6c00b3af16748684d4de551cc7be75']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--3fb88eb7-fb5a-4a7c-aa12-0fd7c4e7dc3d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--894e20f4-a102-4f86-b6cb-f0c929388b24",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--228ab52a-62e9-4446-98aa-73e0ac643d4c",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '0b4a9a3f167178054ef9f9a97463cbe31f078c2f']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--c01b474a-b4d4-41fb-bcca-d55053e052a4",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--228ab52a-62e9-4446-98aa-73e0ac643d4c",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--a9425c11-2417-48c4-8763-4e89d6670cc0",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'd713b8b0f3764157cc18d5dc1cb0f9c558067728']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--5d6be950-5bb8-49fd-859e-fbc80820c556",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--a9425c11-2417-48c4-8763-4e89d6670cc0",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--0bf68021-37cf-46f2-9146-653720e9f1c3",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '589d88093dad377d46f34415a7f9df11d65b81ed']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--1ce2febf-e3c9-4af3-b876-16c3ab0319a2",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--0bf68021-37cf-46f2-9146-653720e9f1c3",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--2378da85-b742-4f95-a8d4-1a89db46fdc4",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'ab560af6bafff8f58ea5bc53c0391501415aed14']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--e75d43a5-a62f-4e30-9f96-499b828a3fcd",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--2378da85-b742-4f95-a8d4-1a89db46fdc4",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--1fe46274-8e59-41a8-8579-f7e3b1ce0c5a",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '5891fa6a3a8232192ebd57a171bad29f53c7598c']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--0101c267-4022-4500-8627-ad18cd919efc",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--1fe46274-8e59-41a8-8579-f7e3b1ce0c5a",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--814a6427-2c20-4e63-933f-d51314db5ba3",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'e514042565ffb2811f780227fee5ed5683925d49']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--b787b014-804f-487e-8d13-8915937a5729",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--814a6427-2c20-4e63-933f-d51314db5ba3",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--1083ad26-fb02-442b-b32d-c57e2f86b323",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '4405af38c4a6b6130fcf242a11b0ce7963a1be28']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--1fb4d1bb-2a02-4054-9532-8daea9b976a7",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--1083ad26-fb02-442b-b32d-c57e2f86b323",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--f91922bb-324e-447b-8a08-00c0f2f5c279",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '17e6bbed5e43ec5b8d2821e0145da7ee32a58ea6']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--525a7467-1859-4b5e-aa18-9295a0b6fccb",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--f91922bb-324e-447b-8a08-00c0f2f5c279",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--769f29b6-51cc-4abb-a9cc-040d54269fc4",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '5c16637848d6f1eb4aa6c5b2a4928a1144cd2113']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--ada79cca-00a5-41a2-9ceb-477c98ce46e6",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--769f29b6-51cc-4abb-a9cc-040d54269fc4",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--e267373c-a7eb-40db-a1f3-48f9eb2639b8",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '2fbd56b1f3859c6d03dec47f8fcee7e37dc303a1']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--a840ffdc-6445-4664-82a6-d8a2725f8425",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--e267373c-a7eb-40db-a1f3-48f9eb2639b8",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--00ea7d01-d29c-4974-992b-d87fbb620839",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '085191fb59d3933f8447610126600754b35697d4']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--d8332b81-4869-4e59-aacf-2e75d39504e4",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--00ea7d01-d29c-4974-992b-d87fbb620839",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--474f3626-56f7-4912-9b1d-b8ad0218144a",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'd634a548973c7931e224a41201be0a273d561cff']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--831f4e65-c921-4e65-ace8-8fedd675b91d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--474f3626-56f7-4912-9b1d-b8ad0218144a",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--5e6adde7-85f3-4bfc-a09f-f2a928e3e4bd",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '971f4cd569ad9f84e654b62bffdba3a4aa21d4e9']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--c1400d92-6725-4225-8ce2-356ef205de8e",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--5e6adde7-85f3-4bfc-a09f-f2a928e3e4bd",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--20af4d90-d81e-4eb4-b1b7-23b886fb6277",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '331acbdd270acecfa80bc7b4e37629611593de0a']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--6eba1e94-36d8-4a8a-97b2-33601a311f78",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--20af4d90-d81e-4eb4-b1b7-23b886fb6277",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--ce4c1b10-e365-4687-914e-75372da3ed8b",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '58cda5e4607557d79bc5e36764b577f17e77af49']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--e4a93104-e1fa-4b81-8cb8-3c24efdcb625",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--ce4c1b10-e365-4687-914e-75372da3ed8b",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--1bb7a69b-a60b-4509-bfa3-cacce87763ea",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'a9d2f59b8457c6998b654054084b102adfcf3306']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--32078a0e-5308-4e62-9ff5-43b6cdd205b7",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--1bb7a69b-a60b-4509-bfa3-cacce87763ea",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--954235f7-acb2-4ed7-ba7d-7a549ed876a8",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '215847e4c41144365b94cb924d969dbc5e69052b']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--54eda98d-23ff-4ee6-bbf7-e3543687811f",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--954235f7-acb2-4ed7-ba7d-7a549ed876a8",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--78f593a6-4422-4c15-a969-f125dbc30962",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'cc351ffbe748b1db43de6dcd40934fe23986e753']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--2f09d5c5-7fa9-437f-bd4d-61cddef9193e",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--78f593a6-4422-4c15-a969-f125dbc30962",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--82e68799-972d-4a09-95a9-b9571fe5824a",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '85ca8cd21d70668bd2aab9c53163f5e03a0e1a8b']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--563b75d3-b898-4492-97ab-c9a5e7050788",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--82e68799-972d-4a09-95a9-b9571fe5824a",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--db20c45d-beac-4354-93dc-5a83980c3a26",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '6dd20f7b9ccbd961d155fff78452303a54714841']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--4d61d1f4-ad3c-4a8f-9f69-adf781d14d0a",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--db20c45d-beac-4354-93dc-5a83980c3a26",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--5e3545c1-155a-49e7-a575-7eda552fb7bc",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'd02f548d354adff645318de6edc45dff23170241']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--e2c3f52d-c7ab-4049-9e2f-4df61e0f2792",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--5e3545c1-155a-49e7-a575-7eda552fb7bc",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--5ad29c96-819d-4235-bf15-943f6b4076dd",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '2438069c43771f0011da2f22b57b8336aaa7562c']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--cb6cc817-003e-46b3-87fa-bd0ba2445367",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--5ad29c96-819d-4235-bf15-943f6b4076dd",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--2648f06f-41e5-4b20-be1d-d2c294e86ffb",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '5c2fc57609ee28753b78a0f33ba7519fc9fbb6f8']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--bffe1580-8063-456c-89d0-9b4414d887a5",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--2648f06f-41e5-4b20-be1d-d2c294e86ffb",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--643bf528-1ad8-473b-932b-2b2eca233e84",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for WyrmSpy",
+			"description":"This file hash indicates that a sample of WyrmSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '53c745956c3501d1daf232aeea5edfb52168c6b4']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--556d702c-b6bc-4238-aced-6ef6a5630c81",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--643bf528-1ad8-473b-932b-2b2eca233e84",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--758ed0b4-2a02-4836-8ded-97fdbe29a7ae",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious IP for WyrmSpy",
+			"description":"Malicious IP for WyrmSpy",
+			"labels":["malicious-activity"],
+			"pattern":"[ipv4-addr:value = '116.205.4.18']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--329055d0-935c-4387-9a33-91f4183fc77c",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--758ed0b4-2a02-4836-8ded-97fdbe29a7ae",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--901441c2-c5b8-4fda-abdb-4a7c29f35c65",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for WyrmSpy",
+			"description":"Malicious C2 that indicates activity of WyrmSpy.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'dns.win10micros0ft.com']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--a19dc4c7-68e3-4ad6-9d59-13f03e2cbd5b",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--901441c2-c5b8-4fda-abdb-4a7c29f35c65",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--d40ff161-1932-477a-9808-787bd9dd5f22",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for WyrmSpy",
+			"description":"Malicious C2 that indicates activity of WyrmSpy.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'www.andropwn.xyz']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--e7e98fcc-35f3-4443-bc51-5b1bc92ac0d4",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--d40ff161-1932-477a-9808-787bd9dd5f22",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--c356e63d-b317-4703-ae1e-719bab377498",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious IP for WyrmSpy",
+			"description":"Malicious IP for WyrmSpy",
+			"labels":["malicious-activity"],
+			"pattern":"[ipv4-addr:value = '121.42.149.52']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--44cedfea-f5d3-4a37-9a59-4f45dc80251b",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--c356e63d-b317-4703-ae1e-719bab377498",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--eb03c66a-f55e-49f7-8e91-e5a44255f963",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for WyrmSpy",
+			"description":"Malicious C2 that indicates activity of WyrmSpy.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'update.umisen.com']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--f312b151-116f-44c3-90f6-d4bb2b2c9d8b",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--eb03c66a-f55e-49f7-8e91-e5a44255f963",
+			"target_ref":"malware--9adee76f-37d3-4963-9642-9338488ec9b8"
+		}
+	]
+}

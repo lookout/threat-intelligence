@@ -1,0 +1,255 @@
+{
+	"type":"bundle",
+	"id":"bundle--53abc3af-0234-4a77-a94e-ac8a97a0da0b",
+	"objects":[
+		{
+			"type":"malware",
+			"id":"malware--8ce09b56-4ddd-4c2e-a609-c32959c1bf30",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"PlainGnome Surveillanceware",
+			"labels":["spyware"],
+			"description":"New samples of the PlainGnome, continued deployment against former Soviet republics, Surveillance, Android."
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--720af84d-c256-4bad-8ef3-eb70ad41c88e",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for PlainGnome",
+			"description":"This file hash indicates that a sample of PlainGnome is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '2c7827f92a103db1b299f334043fbdc73805bbee11f4bfac195f672ba0464d22']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--2981bb23-7479-4404-b97a-c67f81113e0f",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--720af84d-c256-4bad-8ef3-eb70ad41c88e",
+			"target_ref":"malware--8ce09b56-4ddd-4c2e-a609-c32959c1bf30"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--cdea0eb7-b9b6-4e0f-9c99-b22fc76e0fac",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for PlainGnome",
+			"description":"This file hash indicates that a sample of PlainGnome is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '39cb17cb03a794e69eb4f0694e90e41a8cfb8480b82da82fcbd4a88dfe49930d']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--73832c39-f68e-454b-8198-bbda137d69d1",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--cdea0eb7-b9b6-4e0f-9c99-b22fc76e0fac",
+			"target_ref":"malware--8ce09b56-4ddd-4c2e-a609-c32959c1bf30"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--176b6ff8-e8a6-4bbb-83e7-45f5c56e2220",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for PlainGnome",
+			"description":"This file hash indicates that a sample of PlainGnome is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '7a8ec25f3d4a5c6b4fbdb1002ce22ff0352ce65c0f4ddc9567458e8fcb964845']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--aceef85f-dc75-4494-841f-e902458cbed6",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--176b6ff8-e8a6-4bbb-83e7-45f5c56e2220",
+			"target_ref":"malware--8ce09b56-4ddd-4c2e-a609-c32959c1bf30"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--bc29e0fb-2272-4281-96ae-e2a9a1d2508a",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for PlainGnome",
+			"description":"This file hash indicates that a sample of PlainGnome is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '8407fed605805f0e7ef9628767d0aff1014e7231549b09f3c0d0cb723f07c48a']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--afcec9d6-9722-4d33-9f35-e982788d07ad",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--bc29e0fb-2272-4281-96ae-e2a9a1d2508a",
+			"target_ref":"malware--8ce09b56-4ddd-4c2e-a609-c32959c1bf30"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--e266f885-757e-4f78-a0a6-4511d5dbb8db",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for PlainGnome",
+			"description":"This file hash indicates that a sample of PlainGnome is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '86e51f1cc8213e173e47080ab45577e922e624006954de73ebae531589c912f4']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--fa1de543-9041-4c4a-aa9c-41e113b19f4d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--e266f885-757e-4f78-a0a6-4511d5dbb8db",
+			"target_ref":"malware--8ce09b56-4ddd-4c2e-a609-c32959c1bf30"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--8666cee9-7bab-4846-a285-a9d542a4297a",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for PlainGnome",
+			"description":"This file hash indicates that a sample of PlainGnome is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = 'cb648ba5cce810e5ba17b89ca2c346bd3f0ad612834c225ec7b55871c4acc085']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--db0ef1b7-2211-4a96-b6bf-34f3628310f7",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--8666cee9-7bab-4846-a285-a9d542a4297a",
+			"target_ref":"malware--8ce09b56-4ddd-4c2e-a609-c32959c1bf30"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--747c434d-765c-476c-930a-2176b53d7ec4",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for PlainGnome",
+			"description":"This file hash indicates that a sample of PlainGnome is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = 'ce6e5838f3ada452b64ffc6261e9bf74479bd31e83f77c7409c89564846db6a3']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--64382443-ec65-4778-8088-4420c1da9f63",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--747c434d-765c-476c-930a-2176b53d7ec4",
+			"target_ref":"malware--8ce09b56-4ddd-4c2e-a609-c32959c1bf30"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--c6ffbdec-b6c3-4b59-81f4-d796ea536a4c",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for PlainGnome",
+			"description":"This file hash indicates that a sample of PlainGnome is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = 'f0acf9558b7a4fcdaa119731ad5fb5bbdf5a704c9be9e929735a4679735989db']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--7dae0ef1-376a-4d56-840e-b6501dc43e0e",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--c6ffbdec-b6c3-4b59-81f4-d796ea536a4c",
+			"target_ref":"malware--8ce09b56-4ddd-4c2e-a609-c32959c1bf30"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--bcb70c17-68c9-4447-8c18-8fad0ca113b1",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for PlainGnome",
+			"description":"Malicious C2 that indicates activity of PlainGnome.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'llkeyvost.ddns.net']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--a1e9d435-7303-49d1-bd18-a605a13dcc29",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--bcb70c17-68c9-4447-8c18-8fad0ca113b1",
+			"target_ref":"malware--8ce09b56-4ddd-4c2e-a609-c32959c1bf30"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--2dda4116-53a8-45f4-8748-56413bccb492",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for PlainGnome",
+			"description":"Malicious C2 that indicates activity of PlainGnome.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'ltkwark.ddns.net']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--11ec6413-fefa-4884-8559-c45ab8dd8ab2",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--2dda4116-53a8-45f4-8748-56413bccb492",
+			"target_ref":"malware--8ce09b56-4ddd-4c2e-a609-c32959c1bf30"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--9c698556-a402-45b3-9f18-0c7800a41208",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for PlainGnome",
+			"description":"Malicious C2 that indicates activity of PlainGnome.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'ollymap.pw']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--f322e821-61ab-4015-9895-f3a6ff699dc5",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--9c698556-a402-45b3-9f18-0c7800a41208",
+			"target_ref":"malware--8ce09b56-4ddd-4c2e-a609-c32959c1bf30"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--95792b0e-3a0e-4581-ae11-a3694703b8f8",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for PlainGnome",
+			"description":"Malicious C2 that indicates activity of PlainGnome.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'wleak.pw']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--4edf3f57-b119-45cf-ab54-c2b4b0202d2f",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--95792b0e-3a0e-4581-ae11-a3694703b8f8",
+			"target_ref":"malware--8ce09b56-4ddd-4c2e-a609-c32959c1bf30"
+		}
+	]
+}
