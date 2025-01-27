@@ -1,0 +1,1075 @@
+{
+	"type":"bundle",
+	"id":"bundle--18ab26c6-6b12-46d0-b291-3060181772f7",
+	"objects":[
+		{
+			"type":"malware",
+			"id":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"EagleMsgSpy Surveillanceware",
+			"labels":["spyware"],
+			"description":"Lawful intercept tooling developed by private Chinese technology company with suspected ties to security bureaus in mainland China, Surveillanceware, Android."
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--9aa00b94-1b15-4a18-9888-61f5058545ee",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for EagleMsgSpy",
+			"description":"This file hash indicates that a sample of EagleMsgSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'dab40467824ff3960476d924ada91997ddfce0b0']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--7bf2b349-03cd-40ca-ad44-3791cd8ae7b5",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--9aa00b94-1b15-4a18-9888-61f5058545ee",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--58c15058-60df-4a56-8550-fad0350eee3c",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for EagleMsgSpy",
+			"description":"This file hash indicates that a sample of EagleMsgSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'fef7ad2b74db3e42909c04816c66c61c61b7a8c4']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--95d15e3a-785d-484f-a090-22af9a30cc8b",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--58c15058-60df-4a56-8550-fad0350eee3c",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--e84fee04-44dd-4f98-b3d3-e574ff559f87",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for EagleMsgSpy",
+			"description":"This file hash indicates that a sample of EagleMsgSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'ddc729ecf21dd74e51e1a2f5c8b1d2d06ed4a559']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--6df20eb6-3f23-4f86-ad4a-1cdfcf95f22d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--e84fee04-44dd-4f98-b3d3-e574ff559f87",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--9fbfe960-1af2-454c-bef7-ca81a6f144e3",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for EagleMsgSpy",
+			"description":"This file hash indicates that a sample of EagleMsgSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'f092dfab5b1fbff38361077f87805403318badfa']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--f0dfa1f6-6217-4828-b1e3-40c77cc69984",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--9fbfe960-1af2-454c-bef7-ca81a6f144e3",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--13cf3939-288b-45e5-a3ca-52eb8e3589df",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for EagleMsgSpy",
+			"description":"This file hash indicates that a sample of EagleMsgSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'd4e943ba47f762194bcf3c07be25a9f6ea5a36b0']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--d6f2fe74-c5ad-44d6-80d6-2ac930874a53",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--13cf3939-288b-45e5-a3ca-52eb8e3589df",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--f9ab21fa-d2b4-4ffe-a915-f7f21e7346c6",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for EagleMsgSpy",
+			"description":"This file hash indicates that a sample of EagleMsgSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'cea796beb252d1ab7db01d8a0103f7cca5d0955d']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--cd07a201-88a6-4580-86d6-f8539fa7c445",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--f9ab21fa-d2b4-4ffe-a915-f7f21e7346c6",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--558f37a1-9a90-4181-b20b-918244c81e1f",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for EagleMsgSpy",
+			"description":"This file hash indicates that a sample of EagleMsgSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '5208039ef9efb317cc2ed7085ca98386ec31b0b4']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--9b52effa-8f1c-4ce8-b351-00a6c8296143",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--558f37a1-9a90-4181-b20b-918244c81e1f",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--afa65511-6b33-482d-9e41-a14e67641f30",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for EagleMsgSpy",
+			"description":"This file hash indicates that a sample of EagleMsgSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '5d935d5ab7b7c6b301a4c79807c33e0bee23e3ff']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--4b39c502-eba2-47c6-bd53-f8f9b144f627",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--afa65511-6b33-482d-9e41-a14e67641f30",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--87942a0d-f16e-4c43-8bd6-277d0f1070f9",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for EagleMsgSpy",
+			"description":"This file hash indicates that a sample of EagleMsgSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '5e282b0395093c478c36eda9b4ee50c92d8cf6eb']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--4a42cb01-2240-411f-9932-02249f67907c",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--87942a0d-f16e-4c43-8bd6-277d0f1070f9",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--50d13733-0df0-4f1c-9d45-d2402c2f74ad",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for EagleMsgSpy",
+			"description":"This file hash indicates that a sample of EagleMsgSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'ec580142c0dff25b43f8525f9078dd3d6a99361c']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--7a7d7b16-7b40-447b-a41d-79aeee5f5564",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--50d13733-0df0-4f1c-9d45-d2402c2f74ad",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--3c699b71-5cde-4fc0-b015-1c8cab527940",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for EagleMsgSpy",
+			"description":"This file hash indicates that a sample of EagleMsgSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '87d925a95d584e4c46545579b01713f6d74eee00']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--4abf25c2-edf4-4822-ae0f-f62054e88f81",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--3c699b71-5cde-4fc0-b015-1c8cab527940",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--dd337572-dbe8-4db4-b4c2-7857a3aa69d2",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for EagleMsgSpy",
+			"description":"This file hash indicates that a sample of EagleMsgSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '880c46bf7e65e3f9a081f42582af1f072e22cf1a']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--ebbcfba2-6c8f-4cb3-8716-515478135e11",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--dd337572-dbe8-4db4-b4c2-7857a3aa69d2",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--62b61ef2-2518-4547-b315-e195f80aba1c",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for EagleMsgSpy",
+			"description":"This file hash indicates that a sample of EagleMsgSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '0b1d3d87a453f63129e73b2a32d95ef3eea94b4e']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--78c9d9a0-b0a1-45f2-b1f0-55cc6d38156c",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--62b61ef2-2518-4547-b315-e195f80aba1c",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--0a82a75e-03dc-4447-9e49-faf0f94f3ca4",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for EagleMsgSpy",
+			"description":"This file hash indicates that a sample of EagleMsgSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '8ee651a90c36a98b2ab240efb64c597c21fb6f1e']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--37e1a28c-a13e-4db6-b52c-00f8da8dffa5",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--0a82a75e-03dc-4447-9e49-faf0f94f3ca4",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--0f4b9e4a-d383-474e-9949-401578c73281",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for EagleMsgSpy",
+			"description":"This file hash indicates that a sample of EagleMsgSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'f0f3e8f01a17c7d5be440dfa7ef7e5ac1f068fe5']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--a18ae69a-5a15-4325-9507-be03e37a849c",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--0f4b9e4a-d383-474e-9949-401578c73281",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--9fb04a61-e957-4305-8dff-3966daabe2db",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for EagleMsgSpy",
+			"description":"This file hash indicates that a sample of EagleMsgSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '9557eebe4ee2dc602750365e722002d9f686b7fb']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--9dcbc499-cd9a-40b6-b642-b75cd0d8536a",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--9fb04a61-e957-4305-8dff-3966daabe2db",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--5904bb53-b50f-42c2-ad17-7e1e55f451df",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for EagleMsgSpy",
+			"description":"This file hash indicates that a sample of EagleMsgSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '29bbb04c0180e78bd6bad49719ce92ae17081a3b']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--ad5d96e9-6ef0-435a-a333-1fc889926b2b",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--5904bb53-b50f-42c2-ad17-7e1e55f451df",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--f2db3ba4-49c0-4dbd-b2b0-d1c35bb3747f",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for EagleMsgSpy",
+			"description":"This file hash indicates that a sample of EagleMsgSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '01003f047caa05873ee420e29ee54d6cc8203ca6']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--6accbe90-8252-4f2b-ac63-d7d8bf9c4581",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--f2db3ba4-49c0-4dbd-b2b0-d1c35bb3747f",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--098f46d1-c3ef-4892-a925-f6d167c496c2",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for EagleMsgSpy",
+			"description":"This file hash indicates that a sample of EagleMsgSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '64aca40e982836b72f156fb66b6383a0634d12cc']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--85560e1e-199d-45db-97c0-1304f6834b80",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--098f46d1-c3ef-4892-a925-f6d167c496c2",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--260f842f-7ebb-432f-9531-ee3c38124376",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for EagleMsgSpy",
+			"description":"This file hash indicates that a sample of EagleMsgSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'e6b270be7a6c3cca16ae7268f3a93c74c14b0510']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--4278fa90-ad9a-43d5-8074-bf4913e28705",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--260f842f-7ebb-432f-9531-ee3c38124376",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--50a8f71c-88af-4e69-8eca-0681a89c8697",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for EagleMsgSpy",
+			"description":"This file hash indicates that a sample of EagleMsgSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'caa93aa37353cab26a30e291c41fe579d3304e1a']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--b0c304ec-bc7d-421c-ace4-5874832f5201",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--50a8f71c-88af-4e69-8eca-0681a89c8697",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--444c270f-a753-4788-93ac-5a84017c1977",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for EagleMsgSpy",
+			"description":"This file hash indicates that a sample of EagleMsgSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'd6d706b23caefb2822914e294452ada77710eff3']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--5a468c2c-db04-47ea-923c-491803bc5d3e",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--444c270f-a753-4788-93ac-5a84017c1977",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--d7debb5a-4eef-4db9-aa7d-5aa7e77f6278",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for EagleMsgSpy",
+			"description":"This file hash indicates that a sample of EagleMsgSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '4dfcc0b99f81b66c56059a72d4e149bc5d728b87']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--13597ece-a7df-4388-8658-13d578cc1bff",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--d7debb5a-4eef-4db9-aa7d-5aa7e77f6278",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--16a36f82-5f93-4d4c-a1e0-cde25e9a5723",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for EagleMsgSpy",
+			"description":"This file hash indicates that a sample of EagleMsgSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '81c572580d09231fbdc3cf4fedb2aa07be3b7769']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--b322a175-51db-4523-93bc-1e7b6c8d7f47",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--16a36f82-5f93-4d4c-a1e0-cde25e9a5723",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--4c8c8540-d7cb-46cc-9f53-52eba864babb",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for EagleMsgSpy",
+			"description":"This file hash indicates that a sample of EagleMsgSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '59987ceadbd899314ffcf77958faf3b35aa064cd']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--24a7dbdc-ed32-4128-805b-b064f498e698",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--4c8c8540-d7cb-46cc-9f53-52eba864babb",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--a1989474-e24c-4436-acb7-1b51df32ed11",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for EagleMsgSpy",
+			"description":"This file hash indicates that a sample of EagleMsgSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '89642d092adaea7ad1e5ae77dea97bbdef5839d1']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--bbca6b26-847e-4458-b8f1-af58d749b891",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--a1989474-e24c-4436-acb7-1b51df32ed11",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--510060a6-6456-4e4f-a95a-fe775cd6bf3f",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for EagleMsgSpy",
+			"description":"This file hash indicates that a sample of EagleMsgSpy is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '6d043b4d7bc513cc6d3e308a84ed8b63e3bab4f6']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--aa900d52-926e-424c-9c90-69627e7dc87a",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--510060a6-6456-4e4f-a95a-fe775cd6bf3f",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--5bfc0b48-424b-4b8f-871e-ac6f09e0fe60",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious IP for EagleMsgSpy",
+			"description":"Malicious IP for EagleMsgSpy",
+			"labels":["malicious-activity"],
+			"pattern":"[ipv4-addr:value = '61.136.71.171']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--2591e9ce-39a4-4252-9daa-fbaf508fbb41",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--5bfc0b48-424b-4b8f-871e-ac6f09e0fe60",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--35c15860-a61f-4988-b099-4f031c6c540a",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious IP for EagleMsgSpy",
+			"description":"Malicious IP for EagleMsgSpy",
+			"labels":["malicious-activity"],
+			"pattern":"[ipv4-addr:value = '149.28.21.203']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--fa2be4e1-a71a-4da2-8987-3c2b1845a5da",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--35c15860-a61f-4988-b099-4f031c6c540a",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--2b91990a-c8eb-4914-ae3b-2e1e115fa2aa",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious IP for EagleMsgSpy",
+			"description":"Malicious IP for EagleMsgSpy",
+			"labels":["malicious-activity"],
+			"pattern":"[ipv4-addr:value = '47.112.137.199']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--568f36bf-4468-4c8c-b65f-8f04d2e92c2d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--2b91990a-c8eb-4914-ae3b-2e1e115fa2aa",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--82673ef2-6f48-46fb-9f1b-59ba83751dcc",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious IP for EagleMsgSpy",
+			"description":"Malicious IP for EagleMsgSpy",
+			"labels":["malicious-activity"],
+			"pattern":"[ipv4-addr:value = '59.48.241.214']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--b7f6efc5-3abf-4ff5-990b-8a3f8ead7aac",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--82673ef2-6f48-46fb-9f1b-59ba83751dcc",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--f4a71938-0c05-481d-ac66-b067a3bea598",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious IP for EagleMsgSpy",
+			"description":"Malicious IP for EagleMsgSpy",
+			"labels":["malicious-activity"],
+			"pattern":"[ipv4-addr:value = '61.163.69.238']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--5ebff019-30ae-4f86-a274-151ea30249b6",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--f4a71938-0c05-481d-ac66-b067a3bea598",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--a18ec41f-eee1-40ec-910b-da7714884628",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious IP for EagleMsgSpy",
+			"description":"Malicious IP for EagleMsgSpy",
+			"labels":["malicious-activity"],
+			"pattern":"[ipv4-addr:value = '59.48.241.22']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--60d4a790-f03c-41e8-8ba0-b47c75de58d1",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--a18ec41f-eee1-40ec-910b-da7714884628",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--82a7d81a-afaf-4dab-a7d8-fb6768669420",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious IP for EagleMsgSpy",
+			"description":"Malicious IP for EagleMsgSpy",
+			"labels":["malicious-activity"],
+			"pattern":"[ipv4-addr:value = '220.168.203.197']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--dd2ae917-58cd-4b2f-b292-a03080fbd1d9",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--82a7d81a-afaf-4dab-a7d8-fb6768669420",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--3cade85d-47ff-48f4-ac94-79484c389798",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious IP for EagleMsgSpy",
+			"description":"Malicious IP for EagleMsgSpy",
+			"labels":["malicious-activity"],
+			"pattern":"[ipv4-addr:value = '218.200.20.254']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--9adfaafe-b0d4-40e6-852b-c59f6f752cd5",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--3cade85d-47ff-48f4-ac94-79484c389798",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--24b67178-861c-4166-9f0c-c6b917578c7b",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious IP for EagleMsgSpy",
+			"description":"Malicious IP for EagleMsgSpy",
+			"labels":["malicious-activity"],
+			"pattern":"[ipv4-addr:value = '202.107.80.34']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--3b1dec33-7a38-4174-ba02-3b8b9609054e",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--24b67178-861c-4166-9f0c-c6b917578c7b",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--8c04e563-aa59-476a-9ae1-742e6e5adcd6",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious IP for EagleMsgSpy",
+			"description":"Malicious IP for EagleMsgSpy",
+			"labels":["malicious-activity"],
+			"pattern":"[ipv4-addr:value = '124.163.212.149']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--c582730c-04ec-4391-b680-310feb3826ad",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--8c04e563-aa59-476a-9ae1-742e6e5adcd6",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--f13f6228-8d58-41d6-91ed-4ee8952bb646",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious IP for EagleMsgSpy",
+			"description":"Malicious IP for EagleMsgSpy",
+			"labels":["malicious-activity"],
+			"pattern":"[ipv4-addr:value = '119.36.193.210']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--3971d18f-4860-4500-9d10-06aa71a8f3ec",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--f13f6228-8d58-41d6-91ed-4ee8952bb646",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--56276e97-011d-4274-83f2-9904776cc893",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious IP for EagleMsgSpy",
+			"description":"Malicious IP for EagleMsgSpy",
+			"labels":["malicious-activity"],
+			"pattern":"[ipv4-addr:value = '101.201.213.210']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--437ee37f-f2b5-4f44-b722-7847204f3707",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--56276e97-011d-4274-83f2-9904776cc893",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--c6a50ef4-5bea-40bc-90b9-8b8cc3efa129",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious IP for EagleMsgSpy",
+			"description":"Malicious IP for EagleMsgSpy",
+			"labels":["malicious-activity"],
+			"pattern":"[ipv4-addr:value = '111.21.6.126']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--c1ab60e4-e7f1-487e-97fd-833b60185146",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--c6a50ef4-5bea-40bc-90b9-8b8cc3efa129",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--014b6e52-fb96-4f0d-a37a-3c855b1e30cc",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for EagleMsgSpy",
+			"description":"Malicious C2 that indicates activity of EagleMsgSpy.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'xkong.tzsafe.com']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--5569cc23-ae0a-4000-b1d9-60f97a947b56",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--014b6e52-fb96-4f0d-a37a-3c855b1e30cc",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--b4dbeb14-0c8a-4dee-8fb6-b8db9b3c7f4a",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for EagleMsgSpy",
+			"description":"Malicious C2 that indicates activity of EagleMsgSpy.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'www.tzsafe.com']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--1cd07377-6819-4a09-a680-de1243c9b2b0",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--b4dbeb14-0c8a-4dee-8fb6-b8db9b3c7f4a",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--286cb54a-cf7f-4dde-84f3-d8bc33e18186",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for EagleMsgSpy",
+			"description":"Malicious C2 that indicates activity of EagleMsgSpy.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'qzapp.tzsafe.com']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--4ac31b2d-e085-43cf-b01a-f05ac2fe56b5",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--286cb54a-cf7f-4dde-84f3-d8bc33e18186",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--b76ab6b7-2794-4446-a931-2945632ecd8d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for EagleMsgSpy",
+			"description":"Malicious C2 that indicates activity of EagleMsgSpy.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'kong.tzsafe.com']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--52770a7e-b8d4-44cd-9d6d-b2f7907a9435",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--b76ab6b7-2794-4446-a931-2945632ecd8d",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--58e70afc-f3bd-42b8-a9dd-26170e005c8a",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for EagleMsgSpy",
+			"description":"Malicious C2 that indicates activity of EagleMsgSpy.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'i.tzsafe.com']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--6e832ed1-e507-433d-a016-9e0b764d8c84",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--58e70afc-f3bd-42b8-a9dd-26170e005c8a",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--c5bfb48a-b0fd-47ad-ba59-123154c00aa0",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for EagleMsgSpy",
+			"description":"Malicious C2 that indicates activity of EagleMsgSpy.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'git.tzsafe.com']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--1e1eeb1d-7f96-41ec-8d9b-174709d6cdff",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--c5bfb48a-b0fd-47ad-ba59-123154c00aa0",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--c2d99b71-1468-4d15-9510-629a435cf122",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for EagleMsgSpy",
+			"description":"Malicious C2 that indicates activity of EagleMsgSpy.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'es.ngrok.tzsafe.com']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--67c81079-caf3-4ae5-991d-dd1ec28525b6",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--c2d99b71-1468-4d15-9510-629a435cf122",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--1c65c707-d8be-43f4-bb28-c0fd7c8b47b1",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for EagleMsgSpy",
+			"description":"Malicious C2 that indicates activity of EagleMsgSpy.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'efence.demo.tzsafe.com']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--194c30c3-03c0-49d5-8b86-7b958197e737",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--1c65c707-d8be-43f4-bb28-c0fd7c8b47b1",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--2b8b932a-8d80-45a8-89ea-5fc1042adefd",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for EagleMsgSpy",
+			"description":"Malicious C2 that indicates activity of EagleMsgSpy.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'eagle.zrtsafe.com']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--b67a1aab-7e93-4bae-a9cf-6c5ace52ee3a",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--2b8b932a-8d80-45a8-89ea-5fc1042adefd",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--6f8229c5-0408-4ab7-8798-e975b7ff211d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for EagleMsgSpy",
+			"description":"Malicious C2 that indicates activity of EagleMsgSpy.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'eagle.tzsafe.tk']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--83ba0b64-1736-4f50-8afb-a817cf6a6820",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--6f8229c5-0408-4ab7-8798-e975b7ff211d",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--f94884eb-d091-4439-8441-4161b0c7c32c",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for EagleMsgSpy",
+			"description":"Malicious C2 that indicates activity of EagleMsgSpy.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'eagle.tzsafe.com']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--a11aa3eb-3e0b-429e-a7d7-3cdbdb0bf367",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--f94884eb-d091-4439-8441-4161b0c7c32c",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--48fd025f-d675-456c-9095-f10d5db1b7e6",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for EagleMsgSpy",
+			"description":"Malicious C2 that indicates activity of EagleMsgSpy.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'eagle.demo.tzsafe.com']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--8f0cdd3b-2c99-4ea6-8dfb-49198daef7db",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--48fd025f-d675-456c-9095-f10d5db1b7e6",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--2ec4d69e-6cfd-4979-9b7b-4df0932eaa39",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for EagleMsgSpy",
+			"description":"Malicious C2 that indicates activity of EagleMsgSpy.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'bug.tzsafe.com']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--68e1e340-1db9-4013-b74a-08145d65bd5d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--2ec4d69e-6cfd-4979-9b7b-4df0932eaa39",
+			"target_ref":"malware--ff4f62c2-e759-41ca-9168-a76dc9dad08c"
+		}
+	]
+}

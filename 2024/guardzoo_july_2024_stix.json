@@ -1,0 +1,475 @@
+{
+	"type":"bundle",
+	"id":"bundle--46bc58de-665f-4fdf-bb5d-1a94fe1679dd",
+	"objects":[
+		{
+			"type":"malware",
+			"id":"malware--96dab423-c975-4ff7-974b-57a6d362d88a",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"GuardZoo Surveillanceware",
+			"labels":["spyware"],
+			"description":"Android surveillance operation by a Yemen Houthi-aligned group using military lures. Surveillance, Android."
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--7e4fbf6c-7260-48d5-9e52-38e8c93c603a",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for GuardZoo",
+			"description":"This file hash indicates that a sample of GuardZoo is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = 'd34cd64dea64f1e29534f10c7fe3d504d5d7d825c441fd2fb3b81c2cb56c5971']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--782249f7-c084-4f53-b88b-f7ec77d936c5",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--7e4fbf6c-7260-48d5-9e52-38e8c93c603a",
+			"target_ref":"malware--96dab423-c975-4ff7-974b-57a6d362d88a"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--55365444-c88d-4988-a109-86280bcee1c4",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for GuardZoo",
+			"description":"This file hash indicates that a sample of GuardZoo is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = 'bb09cf4023bca6fe8e854626641df398a3ce484236c650d790af83b5990b5408']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--e938dd4b-0219-4579-a1fa-4dbc800b1ba0",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--55365444-c88d-4988-a109-86280bcee1c4",
+			"target_ref":"malware--96dab423-c975-4ff7-974b-57a6d362d88a"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--74518cd7-128f-404a-8307-a400bd247ac6",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for GuardZoo",
+			"description":"This file hash indicates that a sample of GuardZoo is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '3113eed5c125b4c753f6797e50db3320c907eb80c03a9028286ad1bc1c86fe32']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--d83304a2-a4b3-40e5-a431-c3de63804791",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--74518cd7-128f-404a-8307-a400bd247ac6",
+			"target_ref":"malware--96dab423-c975-4ff7-974b-57a6d362d88a"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--b9173ea0-83f6-4073-8a7e-df560ba8f969",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for GuardZoo",
+			"description":"This file hash indicates that a sample of GuardZoo is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '54b126aee7055a5160d118b7b9432cac2c75d91df3b7a9d47edb0068191ed8ed']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--f3a3ab54-0c47-49c6-adf9-71f72ab486e8",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--b9173ea0-83f6-4073-8a7e-df560ba8f969",
+			"target_ref":"malware--96dab423-c975-4ff7-974b-57a6d362d88a"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--f77af736-330f-4133-b32c-c8c764c5bb89",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for GuardZoo",
+			"description":"This file hash indicates that a sample of GuardZoo is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '1a049acb067200157a338398a71ffe1982dd4bfac22973e57dfca73e4d4123e7']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--d99ae035-a1f1-4a12-b7f4-86b08178c990",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--f77af736-330f-4133-b32c-c8c764c5bb89",
+			"target_ref":"malware--96dab423-c975-4ff7-974b-57a6d362d88a"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--70de4049-1f8a-458d-8672-a4c78e0e957c",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for GuardZoo",
+			"description":"This file hash indicates that a sample of GuardZoo is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '7cee417674994a0c1c387d2b3b4af334304a8993e55fc2f688132c1b6860ac6e']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--c66c2d2e-1e81-40c0-8020-7af5a874f366",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--70de4049-1f8a-458d-8672-a4c78e0e957c",
+			"target_ref":"malware--96dab423-c975-4ff7-974b-57a6d362d88a"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--fa0b0690-d4a1-4b7b-aee9-e1c7307b7616",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for GuardZoo",
+			"description":"This file hash indicates that a sample of GuardZoo is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '81538715609924902a292c7c514a2785b319c10153b3ac9aad4961c236e3f3f8']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--7a94f3d4-39f7-4344-b89d-9da105da6c10",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--fa0b0690-d4a1-4b7b-aee9-e1c7307b7616",
+			"target_ref":"malware--96dab423-c975-4ff7-974b-57a6d362d88a"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--a2a517d8-c5f1-43ed-85f5-51b2591046af",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for GuardZoo",
+			"description":"This file hash indicates that a sample of GuardZoo is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = 'e3745acfe7b016fe1782bca43c48e7a3a0f3b948d901ce600192e688aa13e9a5']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--5fc5882e-5193-4acb-96e3-1ea7b4f2063c",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--a2a517d8-c5f1-43ed-85f5-51b2591046af",
+			"target_ref":"malware--96dab423-c975-4ff7-974b-57a6d362d88a"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--4b1bdddf-b284-4f78-b772-c6bf6b13d406",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for GuardZoo",
+			"description":"This file hash indicates that a sample of GuardZoo is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '499e04f1ac1380a401f9b38de6cd4a137682fd1ce3557f59ed04cbdf5610b86c']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--3c89d6a3-b7fc-4d9d-8d6e-1516cdb7598d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--4b1bdddf-b284-4f78-b772-c6bf6b13d406",
+			"target_ref":"malware--96dab423-c975-4ff7-974b-57a6d362d88a"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--d828c446-bbb1-4824-b830-91703d1a3bf5",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for GuardZoo",
+			"description":"This file hash indicates that a sample of GuardZoo is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '1620663c128aa210cea5a8e4f06ecdbedb7b4d4d15c7518771203485cf201808']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--5892069e-5b96-460e-857d-69d47e2910cc",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--d828c446-bbb1-4824-b830-91703d1a3bf5",
+			"target_ref":"malware--96dab423-c975-4ff7-974b-57a6d362d88a"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--d10a83da-f881-4977-80fd-f822b326dcbb",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for GuardZoo",
+			"description":"This file hash indicates that a sample of GuardZoo is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '7537132ec47e75ab54c0acb327ae2c4a26dc4ef9c2f62fff2e4d610e998a6abd']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--4183ae7f-eebb-47c9-8941-aba566ca0550",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--d10a83da-f881-4977-80fd-f822b326dcbb",
+			"target_ref":"malware--96dab423-c975-4ff7-974b-57a6d362d88a"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--5acafb60-135b-4003-92b2-cf19eff4ff6d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for GuardZoo",
+			"description":"This file hash indicates that a sample of GuardZoo is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '0fbbf5bca438574f5592ac1f548d5d460ddccb4ad6225087a770b47fb717c427']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--622c2686-9972-44f3-8165-483565066e0f",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--5acafb60-135b-4003-92b2-cf19eff4ff6d",
+			"target_ref":"malware--96dab423-c975-4ff7-974b-57a6d362d88a"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--14ae2c76-aa34-4006-a5f8-acff44518442",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for GuardZoo",
+			"description":"This file hash indicates that a sample of GuardZoo is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '7896090321f7e45882362aaf99b074f74d571ad8147c9f67de453bf2fde4ee60']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--89f07e0e-dad0-4b24-a06a-ad9c6a85bf63",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--14ae2c76-aa34-4006-a5f8-acff44518442",
+			"target_ref":"malware--96dab423-c975-4ff7-974b-57a6d362d88a"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--dd7f4f51-ca7a-4194-ab8c-417a0ee53c93",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for GuardZoo",
+			"description":"This file hash indicates that a sample of GuardZoo is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '7ab1ddc92532d11b6d292e013f88e862dbf24f182c3cdbe836528e3a559096cc']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--77dd3534-2c2a-406b-b77e-233027d0e1ad",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--dd7f4f51-ca7a-4194-ab8c-417a0ee53c93",
+			"target_ref":"malware--96dab423-c975-4ff7-974b-57a6d362d88a"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--1dad7d7e-753d-4ffa-83ef-d46aa9099f1d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for GuardZoo",
+			"description":"This file hash indicates that a sample of GuardZoo is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = 'a78251a90a67c766e187fb8978bbd58e981fd635e46935a23ad9ecd86695763a']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--b2fb53dd-3483-45dd-90e8-c3dec028e18b",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--1dad7d7e-753d-4ffa-83ef-d46aa9099f1d",
+			"target_ref":"malware--96dab423-c975-4ff7-974b-57a6d362d88a"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--ef6542a3-1c5a-4d6b-8562-fcff5c5cae01",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for GuardZoo",
+			"description":"This file hash indicates that a sample of GuardZoo is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '5daac5f8928f6b51a3a6c7dbc18da3d45ca7ae01462d6b405cc2d8aba9ff3a31']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--e55b2e3c-dc8d-4c62-bce3-3fb0ef1beeb0",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--ef6542a3-1c5a-4d6b-8562-fcff5c5cae01",
+			"target_ref":"malware--96dab423-c975-4ff7-974b-57a6d362d88a"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--c56ac59a-195f-4a6c-91db-e521c6f5591f",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for GuardZoo",
+			"description":"This file hash indicates that a sample of GuardZoo is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = 'd6389c46229e036547cec2f05e122b88f08ac1fb61703ee4e7c59544a72ef605']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--33503853-acea-4d8f-8e89-bd28fafa5f1d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--c56ac59a-195f-4a6c-91db-e521c6f5591f",
+			"target_ref":"malware--96dab423-c975-4ff7-974b-57a6d362d88a"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--f1e7bc50-e393-48d3-93e0-3e96129b4531",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for GuardZoo",
+			"description":"This file hash indicates that a sample of GuardZoo is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = 'f87ef459de739b61a3385f3f5d406d830a77b62aae63db147c0a0fb95b8700cd']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--ed10ae7e-3a7c-475b-a52b-31f89db994f7",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--f1e7bc50-e393-48d3-93e0-3e96129b4531",
+			"target_ref":"malware--96dab423-c975-4ff7-974b-57a6d362d88a"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--5224d949-ea61-4331-bb56-db3082c43500",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for GuardZoo",
+			"description":"This file hash indicates that a sample of GuardZoo is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = 'ccb0c0019be923da82131df1e78897a5cd0d6b88e6d3953f46a70c9d43282af4']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--0d4b8fa9-bf5a-48b9-8cbc-c47fab3383ce",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--5224d949-ea61-4331-bb56-db3082c43500",
+			"target_ref":"malware--96dab423-c975-4ff7-974b-57a6d362d88a"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--d8912265-e854-4b45-8785-860d4c425c0e",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for GuardZoo",
+			"description":"This file hash indicates that a sample of GuardZoo is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '09ef4ce410a10a5e412c05c9885a1d59192a318e42cb36a2ea6081c26de3126e']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--cf660e65-8152-4c56-8f11-fb0c2fcc3641",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--d8912265-e854-4b45-8785-860d4c425c0e",
+			"target_ref":"malware--96dab423-c975-4ff7-974b-57a6d362d88a"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--427fae15-d543-4f74-ab77-120f13869c5f",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for GuardZoo",
+			"description":"This file hash indicates that a sample of GuardZoo is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-256' = '893e083bc3cf54b64fa25d2b25443315c832f0e51de788ad79ad8f5f356540d9']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--e034e30b-acfa-4b28-a8a1-7f4a5a145ca3",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--427fae15-d543-4f74-ab77-120f13869c5f",
+			"target_ref":"malware--96dab423-c975-4ff7-974b-57a6d362d88a"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--84e7a12d-bc61-4e77-915c-7545e4e6ab7e",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for GuardZoo",
+			"description":"Malicious C2 that indicates activity of GuardZoo.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'wwwgoogl.zapto.org']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--c67b8013-6800-490a-acf4-c52705c7b3f5",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--84e7a12d-bc61-4e77-915c-7545e4e6ab7e",
+			"target_ref":"malware--96dab423-c975-4ff7-974b-57a6d362d88a"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--1d139c25-2535-422e-b069-3ec05fba9a2e",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for GuardZoo",
+			"description":"Malicious C2 that indicates activity of GuardZoo.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'somrasdc.ddns.net']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--c8458df3-6382-4c12-a1e9-0949ce14ee11",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--1d139c25-2535-422e-b069-3ec05fba9a2e",
+			"target_ref":"malware--96dab423-c975-4ff7-974b-57a6d362d88a"
+		}
+	]
+}

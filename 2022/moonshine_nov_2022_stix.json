@@ -1,0 +1,1215 @@
+{
+	"type":"bundle",
+	"id":"bundle--759ba3cf-308d-4a72-8397-8f776322ae1a",
+	"objects":[
+		{
+			"type":"malware",
+			"id":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Moonshine Surveillanceware",
+			"labels":["spyware"],
+			"description":"Moonshine surveillanceware known to target the Uyghurs and Tibetan community, distributed by Chinese state-sponsored APT threat actor, Surveillance, Android."
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--852f6c27-b665-4019-a0fe-bf9e1977ee4e",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '8afe90ebb4666565891fcc33e12fad410996d4d1']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--80fc3364-782c-4c52-ba60-02bfaf12ccdc",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--852f6c27-b665-4019-a0fe-bf9e1977ee4e",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--26db1632-cf4c-472a-b72d-3755e503ec3b",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'ac235440a738938c2218e2608ea229dd3584701b']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--afc76782-603f-47ef-8588-e30cce21d106",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--26db1632-cf4c-472a-b72d-3755e503ec3b",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--d03964e3-1efe-440a-947e-4b61b5940f05",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '437f5e0aa400372a6e98de7aca32f6cf916040a0']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--b798fa5b-3ef1-4567-991c-140fe8dc9f02",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--d03964e3-1efe-440a-947e-4b61b5940f05",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--6ccd211c-861e-4cc5-a69c-01ce8c4467d7",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '16125c5ecd29bb1d359fdbbfc127341cafbae6bf']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--cd613a74-7690-4d7b-8770-3943145e77f1",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--6ccd211c-861e-4cc5-a69c-01ce8c4467d7",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--a044dfa8-f5ae-49b1-acb5-1bf53225cb30",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '79fb6f43885df2a058a7aa9d60c88db6b44226dd']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--fc6f3ddc-130e-4fcc-94f6-be05c9a63824",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--a044dfa8-f5ae-49b1-acb5-1bf53225cb30",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--c08c3362-57fc-49a1-9586-4ce5faaff88d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '66b0972bfd0786baa0076575db19b22c56d871ad']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--42315244-a873-45eb-8010-13a878828111",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--c08c3362-57fc-49a1-9586-4ce5faaff88d",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--0905d0fc-4a81-4ddb-b54e-ee3da6735ef0",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '047dee43dda8c09c46773d323968886d9af6b49d']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--a10297f3-a9d1-4f58-8b77-feeac4d4a179",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--0905d0fc-4a81-4ddb-b54e-ee3da6735ef0",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--84c6412f-505c-4802-926b-0655ad6e58fd",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'aa4eede30b2aa975f691b6d002ca047520f2c86f']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--a994cd2d-6ab3-4fb7-9842-d19200cb5d87",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--84c6412f-505c-4802-926b-0655ad6e58fd",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--6bb27769-e8f9-40a3-a7d4-e2e4047dfe71",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '724f41af93abcc7c7625a8814e43398ccbbddf2c']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--54225e4e-08c6-4f75-9c73-41ec927a0f3b",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--6bb27769-e8f9-40a3-a7d4-e2e4047dfe71",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--633a16ae-5b01-42d8-9d8a-157fd4cc4773",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '26b2bf522a6759390a7155250ddb3ee3512bec7a']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--303ab556-3a55-4bda-8aac-3e93e63b518d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--633a16ae-5b01-42d8-9d8a-157fd4cc4773",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--e116d2d6-c6d6-4c40-a93f-9184c30cae99",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '02977d77c801136da581864152b80a9d6568651e']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--52913776-2801-491a-922b-20227ec15ed0",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--e116d2d6-c6d6-4c40-a93f-9184c30cae99",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--3f4ef3eb-3c33-4d2d-8bbe-e58f93c32778",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '12097cf566fbc31b94adf2d2a3c25617609faf68']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--dd5573af-c3a5-4bd2-b322-4102833773e7",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--3f4ef3eb-3c33-4d2d-8bbe-e58f93c32778",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--40614bba-bd3d-4d1d-9ecb-ebd0c0bc4333",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '75ffd57282d23326430bc3ad789a7f3f4e643027']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--d5a930ad-2f6d-4704-88c7-315dfc20319c",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--40614bba-bd3d-4d1d-9ecb-ebd0c0bc4333",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--46efca5f-a364-482a-9d53-25d6acc0bfc8",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'f721db78c57993bed75af77e30ba284b314de05c']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--a7a01b57-192c-49ca-ab60-7c13679fab12",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--46efca5f-a364-482a-9d53-25d6acc0bfc8",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--573ce07e-7009-45f5-bfe2-2b8cb234d0b0",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '9a120fce59a51c09d23b5f7274c7c0e22f2747b5']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--d2a746f7-96cd-44c6-b5a5-93b38f903b33",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--573ce07e-7009-45f5-bfe2-2b8cb234d0b0",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--d9f0dad4-7ff6-4eb9-a561-0dd9d23b52b2",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '9eafa52a74741bb738c20823d4b78035149ea5e0']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--26843006-3e20-43f6-af01-fc8f34a785b6",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--d9f0dad4-7ff6-4eb9-a561-0dd9d23b52b2",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--5cdcc093-f7bb-47b6-ac74-f492c2a99e46",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '6f9203d950ed18da7251aa6c4257921b04852fb5']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--50dc6d25-15ff-4385-81e3-76d6ab772440",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--5cdcc093-f7bb-47b6-ac74-f492c2a99e46",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--a73ec15c-9655-4d75-87be-5521459ebb56",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '12202d87b30bb92bf3f52eae6e93308a1829f988']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--30a37031-bafe-4b77-b3fc-5e9b5f6b2c44",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--a73ec15c-9655-4d75-87be-5521459ebb56",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--edd29614-cf76-40f2-b82e-5c9168fa4277",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '38be047b29b3ac19e74b9943f981b00f87a2e141']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--0c9a2dcd-11d1-430c-8493-f1e729b660fb",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--edd29614-cf76-40f2-b82e-5c9168fa4277",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--c5df0287-542f-4052-9a81-ff5e92345ec8",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'f70e6d6240ee8405214d9690c1d9b55c1c7d80c3']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--70758f78-4b4a-41bd-980e-725960635bc9",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--c5df0287-542f-4052-9a81-ff5e92345ec8",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--f39e1fa6-9ab9-42e6-9a35-573ab314c553",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '9541853c7e85cb1789945e4f9f185247d95c202d']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--cd38b549-bd3f-4b7b-951d-4bfaf2d286bb",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--f39e1fa6-9ab9-42e6-9a35-573ab314c553",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--00727b05-5fed-436d-9a09-79d993c1bdae",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '47c070b0244633536b2731062f22a86238b8d649']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--e8a4542f-82e1-4e2b-b97c-fe27ae327e62",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--00727b05-5fed-436d-9a09-79d993c1bdae",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--bab79a3f-f676-4c49-8ddf-0b9f4adcf211",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'e825e6f09ff7479d45fc35bbd6e0d662f93e93c7']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--e344ad03-1461-4356-9803-d7d62529a615",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--bab79a3f-f676-4c49-8ddf-0b9f4adcf211",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--5846759b-14a2-4c02-b71f-238acccc5aeb",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '509cf8ccdd336ede1e8a0dcaafcec3a981c9bf12']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--35965d24-abe2-43b0-99a5-d15175beb22c",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--5846759b-14a2-4c02-b71f-238acccc5aeb",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--18d3381d-ac6e-4c15-94c7-ad0e15de4696",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'fce2190c1bd0d65d26a134980ab339af160b5880']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--d6a4e579-ad5e-4387-8821-a714529a2ba3",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--18d3381d-ac6e-4c15-94c7-ad0e15de4696",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--87eb49d6-a69a-4da1-a7b7-3b02799c14e5",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '5cefce22565ffb69459fecbeeaea531ce053bd2b']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--66a0743b-5b6b-4d44-9cc0-1ee0f969b94f",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--87eb49d6-a69a-4da1-a7b7-3b02799c14e5",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--34d14df1-fb95-4365-a6f4-1e9f111d270d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '5b32db300ad7ed54149df3234d7b9782d762c1bd']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--f4fe52b2-bdbc-4c6d-bf34-89a6e9236599",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--34d14df1-fb95-4365-a6f4-1e9f111d270d",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--0ab3ef5b-a181-4403-93e4-3d2b2dd2eb28",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '8790a91c4dd2870734eb1e7d49d2d5c24a41925f']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--488dc4d3-dac4-4144-9209-9703550e4910",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--0ab3ef5b-a181-4403-93e4-3d2b2dd2eb28",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--78781287-11f4-45ed-8b97-ec09ab4e64e8",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '69bb842270dcfe777e50b81faf72962a2456062c']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--f07ac1a6-f385-401b-a157-5af003bf2acb",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--78781287-11f4-45ed-8b97-ec09ab4e64e8",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--dcfb71eb-92e8-4b97-87e1-c6b3018d134d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'a443e448416375fb777b2523f5efd4addabc1ab3']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--7a1ebd80-a199-4aee-ba66-b25d078285ad",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--dcfb71eb-92e8-4b97-87e1-c6b3018d134d",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--adfd26f7-f984-4302-91bf-4c3721f10284",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '1fe3d295c3525b3acb7498df9b72dc80c6ca08f5']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--67c5390f-6fab-459a-943e-d08abe651c64",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--adfd26f7-f984-4302-91bf-4c3721f10284",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--64672f18-4675-442a-bbd2-ab4b98250c37",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '166958184998ad53152634cb6a339310ee22d0d8']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--f887062d-2479-4bfd-a10a-1de2bcc2e0e8",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--64672f18-4675-442a-bbd2-ab4b98250c37",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--93ef9f52-a110-4900-bdfe-fa3a70e3e263",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '8ff73d504bba6fedf923f5f2f9b54fbdd4c53a22']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--f7570769-1654-4bc7-9bbb-b45be0aa3a93",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--93ef9f52-a110-4900-bdfe-fa3a70e3e263",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--6379ce24-034b-4110-8c78-69c61cba229c",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'd8f360971d04c3b623f1d7296339e1702142f135']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--4a7e6d1e-4044-4634-b429-8fa27f566010",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--6379ce24-034b-4110-8c78-69c61cba229c",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--a8d1b259-fb42-4986-ba84-816d9c126e67",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'dc692fc09316d9af6e299f15f22e5368ffc32a47']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--978ac4eb-e576-44a8-b3de-f260e947d85f",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--a8d1b259-fb42-4986-ba84-816d9c126e67",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--934989f4-8550-48e6-b62e-aeb3192bb0a5",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '1ed74af5ec4c53e1b1090decf2c5c92907ff83ac']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--76b4f067-f9f4-4b8d-a8df-d92542abb468",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--934989f4-8550-48e6-b62e-aeb3192bb0a5",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--2b4f12d4-01c3-4845-a261-2012160c88a9",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'ab0248870abf3f2bb750f92e8af3da97b71ca74a']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--2adeada9-3a51-4db0-bfbd-b81b0a5af5c7",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--2b4f12d4-01c3-4845-a261-2012160c88a9",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--5d924830-27e2-45cb-be6b-4a90aa94d48a",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '37cad98b7810d8fa205b3ce901a405a575ce2bc3']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--8ba10700-61e3-48e5-bfe6-8b87ea29b61a",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--5d924830-27e2-45cb-be6b-4a90aa94d48a",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--2875b2f8-5811-44af-88bc-ebc0f84e4a6e",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '91bedfd5bd8f7a071c9024890a699fb6566e9ae5']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--3fee7614-31a3-4159-b5ff-ff9f5c8c6829",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--2875b2f8-5811-44af-88bc-ebc0f84e4a6e",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--057ee491-c125-489c-af83-354b6ec9989f",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '5c04e843f797a08b0754821e17eb773919ec3622']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--2e4d0ad4-6c08-4b77-ad46-b066964f4954",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--057ee491-c125-489c-af83-354b6ec9989f",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--cff1ff18-bc28-4b0b-8a4f-a1dc64174fe1",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'fac660cb450a39cc1d422323aaf654c2bd23415d']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--b6d58e5e-51de-4497-a13e-f4676afd3889",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--cff1ff18-bc28-4b0b-8a4f-a1dc64174fe1",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--5600315f-7d6d-4757-8d0e-186b613b147c",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'c57bb036b996d8afdb0c6867b7c65970f69207be']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--28220b8e-0c24-43de-81ee-396871da3809",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--5600315f-7d6d-4757-8d0e-186b613b147c",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--bca9b679-e92a-4ed7-912b-eed5e2ff2951",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '23c2aa2059487f1960e8bdb0c4cfc8808bc6733b']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--c291f898-765f-4886-b023-709c3290c201",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--bca9b679-e92a-4ed7-912b-eed5e2ff2951",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--1b10d30d-79c2-4d59-bf2d-2fd0150b5666",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '8bd9825c07f4a4e0e7f537b6ea33ddfa4e1fff49']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--ee3bf6cb-83c6-4d0e-955f-392caa326c26",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--1b10d30d-79c2-4d59-bf2d-2fd0150b5666",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--a7739e74-2224-464d-9c59-4ab65e6f4e79",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'f3ae46ac2465e09b7ff54d55540bd6f0e567759b']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--f1c50c82-bc1d-4c67-98f5-2bc4ed1ac107",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--a7739e74-2224-464d-9c59-4ab65e6f4e79",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--d071a4b0-e10a-4df8-99fe-159c4129a120",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '8c3051e83d2448046443692e070c81d3ba6b7be0']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--ef1a016f-5c6b-4e52-ac6b-00ebd9fea3ae",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--d071a4b0-e10a-4df8-99fe-159c4129a120",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--11f560da-9cb0-4643-a53b-9250adeab187",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '55db0f43e9a72431b627c3f9752d24b3d2364555']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--a245be94-94be-4aab-aad0-67ecbf402cee",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--11f560da-9cb0-4643-a53b-9250adeab187",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--673d9b9d-c6f2-479f-9d72-ef828889f120",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'be95c5ef09697412f39a7fa85e13e79a21c87826']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--bfc858c4-85cc-4f13-a8e6-a265c8094da8",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--673d9b9d-c6f2-479f-9d72-ef828889f120",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--38978864-c051-4200-ba2c-dd3c44b68f84",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '1fead5107758b6d284ce908bc221f90e6ac37744']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--97c362dd-bf7f-4128-9b44-7d406275e91e",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--38978864-c051-4200-ba2c-dd3c44b68f84",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--6d6533b0-468f-4b58-ba37-2e7989bea550",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'df42714a12957d239bc09b2306063a4728cf403f']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--d4c52f51-a18a-4a8b-9c59-dbc4775ba8cb",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--6d6533b0-468f-4b58-ba37-2e7989bea550",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--5fac4997-dd18-4ba3-95b2-6febc3ccc769",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'f31c0f9cc5b2d31e465d138f928835b5fc9f4daf']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--c2069b67-6158-4cba-b5ea-fe9a7898e28f",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--5fac4997-dd18-4ba3-95b2-6febc3ccc769",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--8ff3cc76-d326-43fc-b2b3-2c1f9f1087e6",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '3b18385cf280477c3fb603617eb242d39b6cc248']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--0b891c23-ab70-4d95-b45a-9310d7146e06",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--8ff3cc76-d326-43fc-b2b3-2c1f9f1087e6",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--48c9337e-8218-481b-9288-9db4f2eac08d",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'eab8863ce4a9c9c4fcc02d4ce170bbe2cd6602fb']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--a113d73c-bc4e-435e-9780-65d9cf9b5df8",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--48c9337e-8218-481b-9288-9db4f2eac08d",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--bc4a5cf3-f7d1-4116-8463-805a78496596",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '4e8e5571d60f029ebc2b2017931f4f70279d2036']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--a67fc1ad-4af7-46eb-85b3-85af94185b2b",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--bc4a5cf3-f7d1-4116-8463-805a78496596",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--9781a740-8710-4af8-abc7-215ae70f5cff",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '13c39737329aa5bb4ed95b38c70b857677949ff3']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--cf7857d3-75b9-4f7e-8db1-d9cab61e400e",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--9781a740-8710-4af8-abc7-215ae70f5cff",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--47b34f79-aed0-4bb9-8b11-f433509501db",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'f0cc8ee3ce1d835a825103672c9fcaf874c3a965']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--319b88de-3232-49ce-bf14-61f80fe26376",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--47b34f79-aed0-4bb9-8b11-f433509501db",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--15d7718e-4535-41aa-9b90-9759c81db468",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = '5b76cd64b3463f7209e3771c131b29f247fa0205']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--19ce61e5-0294-4654-aace-806dfb00afe7",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--15d7718e-4535-41aa-9b90-9759c81db468",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--de91a7b5-7852-43db-8d62-b09feda2a38c",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"File Hash for Moonshine",
+			"description":"This file hash indicates that a sample of Moonshine is present.",
+			"labels":["malicious-activity"],
+			"pattern":"[file:hashes.'SHA-1' = 'c58ff582349fb8406cb98194c44393c000b0eb1d']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--4f4e8854-4e67-4158-b34b-4ca6152ced4c",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--de91a7b5-7852-43db-8d62-b09feda2a38c",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--c6edcded-9801-42d2-b166-1840a2879a8f",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for Moonshine",
+			"description":"Malicious C2 that indicates activity of Moonshine.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'msgupdate.nsupdate.info']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--cd2b0779-cdc6-4ca9-8551-c3b5916c5936",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--c6edcded-9801-42d2-b166-1840a2879a8f",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--6b8797b1-5191-423f-bb4c-823bf3b1c18e",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for Moonshine",
+			"description":"Malicious C2 that indicates activity of Moonshine.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'kuyrfikuhylkjliuyhiuy.nsupdate.info']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--54d3d344-5fb6-47ce-badf-2ad120b9a627",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--6b8797b1-5191-423f-bb4c-823bf3b1c18e",
+			"target_ref":"malware--ae22a6f4-186f-4689-a5fc-320066fc048d"
+		}
+	]
+}

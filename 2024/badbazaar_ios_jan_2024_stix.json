@@ -1,0 +1,95 @@
+{
+	"type":"bundle",
+	"id":"bundle--4a74089d-e5a1-4e1e-b089-d126a85b8746",
+	"objects":[
+		{
+			"type":"malware",
+			"id":"malware--5a8e025a-71c9-4deb-aece-72ad5f631a03",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"BadBazaar Surveillanceware",
+			"labels":["spyware"],
+			"description":"iOS companion of the BadBazaar surveillanceware with limited capabilities, targeting Tibetans, distributed by Chinese state-sponsored APT threat actor, iOS."
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--a00d5abb-3a25-4149-ae09-d6ceb9ddf705",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for BadBazaar",
+			"description":"Malicious C2 that indicates activity of BadBazaar.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'tryhrwserf.com']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--35a77673-ff31-45e6-8f84-6af3b20fba18",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--a00d5abb-3a25-4149-ae09-d6ceb9ddf705",
+			"target_ref":"malware--5a8e025a-71c9-4deb-aece-72ad5f631a03"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--ac450cdd-202c-40f1-94df-9553d29d20d6",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for BadBazaar",
+			"description":"Malicious C2 that indicates activity of BadBazaar.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'tibetone.org']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--93a01fc4-e47e-49ac-be39-181dfd228c4a",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--ac450cdd-202c-40f1-94df-9553d29d20d6",
+			"target_ref":"malware--5a8e025a-71c9-4deb-aece-72ad5f631a03"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--276e9aa5-23ae-4e4c-8eda-5a8bca54ea33",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious C2 for BadBazaar",
+			"description":"Malicious C2 that indicates activity of BadBazaar.",
+			"labels":["malicious-activity"],
+			"pattern":"[domain-name:value = 'signalplus.org']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--094d1434-cbec-4dac-b4a1-d1c0f7ed04b1",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--276e9aa5-23ae-4e4c-8eda-5a8bca54ea33",
+			"target_ref":"malware--5a8e025a-71c9-4deb-aece-72ad5f631a03"
+		},
+		{
+			"type":"indicator",
+			"id":"indicator--297a1e5b-0db1-4658-b18c-4eaf1afcfee5",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"name":"Malicious IP for BadBazaar",
+			"description":"Malicious IP for BadBazaar",
+			"labels":["malicious-activity"],
+			"pattern":"[ipv4-addr:value = '148.251.87.197']",
+			"valid_from":"2025-01-26T00:00:00.000Z"
+		},
+		{
+			"type":"relationship",
+			"id":"relationship--92a48f4c-853a-4b3a-80ca-fd78eaa9700a",
+			"created":"2025-01-26T00:00:00.000Z",
+			"modified":"2025-01-26T00:00:00.000Z",
+			"relationship_type":"indicates",
+			"source_ref":"indicator--297a1e5b-0db1-4658-b18c-4eaf1afcfee5",
+			"target_ref":"malware--5a8e025a-71c9-4deb-aece-72ad5f631a03"
+		}
+	]
+}
