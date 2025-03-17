@@ -1,0 +1,556 @@
+{
+    "type": "bundle",
+    "id": "bundle--f6f7de51-a832-4382-bc77-d8ddc74078e4",
+    "objects": [
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--41f8675b-0800-49da-a2a1-2300bccad0ad",
+            "created": "2025-03-13T22:08:11.000Z",
+            "modified": "2025-03-13T22:08:11.000Z",
+            "name": "Lookout, Inc.",
+            "identity_class": "organization"
+        },
+        {
+            "type": "report",
+            "spec_version": "2.1",
+            "id": "report--f6f7de51-a832-4382-bc77-d8ddc74078e4",
+            "created_by_ref": "identity--41f8675b-0800-49da-a2a1-2300bccad0ad",
+            "created": "2025-03-13T22:08:11.000Z",
+            "modified": "2025-03-13T22:08:11.000Z",
+            "name": "Lookout Discovers New Spyware by North Korean APT37",
+            "published": "2025-03-13T22:08:21Z",
+            "object_refs": [
+                "indicator--56cd4106-8784-4fd1-a662-9046ce4ea125",
+                "indicator--ed4ab710-90e0-4520-8da6-59fd90c62f5e",
+                "indicator--db1aac98-92e6-4f8f-8e49-c601e282944a",
+                "indicator--40a2840f-b2e4-4c04-88c9-919a0ff31dd1",
+                "indicator--299dde45-5734-4c7f-abc6-850d75080478",
+                "indicator--c7e47ef0-2b8f-4d92-b940-eece0490d408",
+                "indicator--c7c9e5e0-08cd-4dbe-9dc6-43f2d56471d9",
+                "indicator--17968fa4-9b48-4624-8bf3-954e7beff67a",
+                "indicator--ee1f4cac-bc81-47ba-b3c5-1c9d68557d1c",
+                "indicator--6e0b8f44-ef91-49d6-b904-ad415ed575c5",
+                "indicator--31a5aac3-b598-41d0-8285-c8471dce13eb",
+                "indicator--66cd527f-9807-4a85-9967-157e81a3d4a3",
+                "indicator--6368a669-5ba7-4330-ac56-5b0b3456d398",
+                "indicator--d1ca80c3-a018-4d0a-9fb1-28b19bf05776",
+                "indicator--f0b31cd5-8291-42f6-8846-73863c848ec2",
+                "x-misp-object--1fa7b74f-3f72-4edf-abbd-9d18942a0c9c",
+                "threat-actor--50cd027f-df14-40b2-aa22-bf5de5061163"
+            ],
+            "labels": [
+                "Threat-Report",
+                "misp:tool=\"MISP-STIX-Converter\"",
+                "PAP:AMBER",
+                "file-type:type=\"android\"",
+                "ms-caro-malware:malware-platform=\"AndroidOS\"",
+                "ms-caro-malware:malware-type=\"Spyware\"",
+                "tlp:amber+strict"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--56cd4106-8784-4fd1-a662-9046ce4ea125",
+            "created_by_ref": "identity--41f8675b-0800-49da-a2a1-2300bccad0ad",
+            "created": "2025-03-13T18:16:24.000Z",
+            "modified": "2025-03-13T18:16:24.000Z",
+            "pattern": "[file:hashes.SHA1 = 'ea6d12e4a465a7a44cbad12659ade8a4999d64d1' AND file:hashes.SHA256 = '90ec29bafccc540dcb171a020e1216da2233b2ce8e9b5e4ff1f510e14f09f4b5' AND file:x_misp_text = 'util.android.manager' AND file:x_misp_text = '\ud734\ub300\ud3f0 \uad00\ub9ac\uc790' AND file:x_misp_text = 'KoSpy' AND file:x_misp_mimetype = 'APK']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-03-13T18:16:24Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--ed4ab710-90e0-4520-8da6-59fd90c62f5e",
+            "created_by_ref": "identity--41f8675b-0800-49da-a2a1-2300bccad0ad",
+            "created": "2025-03-13T18:16:25.000Z",
+            "modified": "2025-03-13T18:16:25.000Z",
+            "pattern": "[file:hashes.SHA1 = '1cc97e490b5f8a582b6b03bdba58cb5f1a389e78' AND file:hashes.SHA256 = 'da56b0416b205b36337af22738967445ff310ca0f6051b243f00b83baa67aa09' AND file:x_misp_text = 'smart.android.manager' AND file:x_misp_text = '\uc2a4\ub9c8\ud2b8 \uad00\ub9ac\uc790' AND file:x_misp_text = 'KoSpy' AND file:x_misp_mimetype = 'APK']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-03-13T18:16:25Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--db1aac98-92e6-4f8f-8e49-c601e282944a",
+            "created_by_ref": "identity--41f8675b-0800-49da-a2a1-2300bccad0ad",
+            "created": "2025-03-13T18:16:25.000Z",
+            "modified": "2025-03-13T18:16:25.000Z",
+            "pattern": "[file:hashes.SHA1 = 'df39ab90c89aa77a92295721688b18e7f1fdb38d' AND file:hashes.SHA256 = 'b0c0f38551a119d0b633c1b65e61b493574ed7083e3e003c83aa19dff7a0524b' AND file:x_misp_text = 'smart.android.manager' AND file:x_misp_text = '\uc2a4\ub9c8\ud2b8 \uad00\ub9ac\uc790' AND file:x_misp_text = 'KoSpy' AND file:x_misp_mimetype = 'APK']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-03-13T18:16:25Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--40a2840f-b2e4-4c04-88c9-919a0ff31dd1",
+            "created_by_ref": "identity--41f8675b-0800-49da-a2a1-2300bccad0ad",
+            "created": "2025-03-13T18:16:25.000Z",
+            "modified": "2025-03-13T18:16:25.000Z",
+            "pattern": "[file:hashes.SHA1 = '1a167b65be75fd0651bbda072c856628973a3c1e' AND file:hashes.SHA256 = 'fe1fb1eaf852085c0d1d9e87a49d04722da64c47f8cba75548002c44113c1a7e' AND file:x_misp_text = 'util.android.manager' AND file:x_misp_text = '\ud734\ub300\ud3f0 \uad00\ub9ac\uc790' AND file:x_misp_text = 'KoSpy' AND file:x_misp_mimetype = 'APK']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-03-13T18:16:25Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--299dde45-5734-4c7f-abc6-850d75080478",
+            "created_by_ref": "identity--41f8675b-0800-49da-a2a1-2300bccad0ad",
+            "created": "2025-03-13T18:16:25.000Z",
+            "modified": "2025-03-13T18:16:25.000Z",
+            "pattern": "[file:hashes.SHA1 = '985fd1f74eb617b1fea17095f9e991dcaceec170' AND file:hashes.SHA256 = '0374615eeca4eaa4a9d97c0de82b7e36b0c60cd40332b61c86fa0b29f7712115' AND file:x_misp_text = 'com.file.exploer' AND file:x_misp_text = 'File Manager' AND file:x_misp_text = 'KoSpy' AND file:x_misp_mimetype = 'APK']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-03-13T18:16:25Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c7e47ef0-2b8f-4d92-b940-eece0490d408",
+            "created_by_ref": "identity--41f8675b-0800-49da-a2a1-2300bccad0ad",
+            "created": "2025-03-13T18:16:25.000Z",
+            "modified": "2025-03-13T18:16:25.000Z",
+            "pattern": "[file:hashes.SHA1 = 'f08f036a0c79a53f6b0c9ad84fb6eac1ac79c168' AND file:hashes.SHA256 = 'bf0150e1e31f655978a74e126b973f2cbd6555e970130f8fafef25b884cfb442' AND file:x_misp_text = 'com.kakao.update' AND file:x_misp_text = '\uce74\uce74\uc624 \ubcf4\uc548' AND file:x_misp_text = 'KoSpy' AND file:x_misp_mimetype = 'APK']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-03-13T18:16:25Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c7c9e5e0-08cd-4dbe-9dc6-43f2d56471d9",
+            "created_by_ref": "identity--41f8675b-0800-49da-a2a1-2300bccad0ad",
+            "created": "2025-03-13T18:16:26.000Z",
+            "modified": "2025-03-13T18:16:26.000Z",
+            "pattern": "[file:hashes.SHA1 = '744e5181e76c68b8b23a19b939942de9e1db1daa' AND file:hashes.SHA256 = 'aa2bbdde656674f2e62d41a3bae7597b2b5102982d97a0fd9410d9055f65e536' AND file:x_misp_text = 'com.kakao.update' AND file:x_misp_text = '\uce74\uce74\uc624 \ubcf4\uc548' AND file:x_misp_text = 'KoSpy' AND file:x_misp_mimetype = 'APK']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-03-13T18:16:26Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--17968fa4-9b48-4624-8bf3-954e7beff67a",
+            "created_by_ref": "identity--41f8675b-0800-49da-a2a1-2300bccad0ad",
+            "created": "2025-03-13T18:16:26.000Z",
+            "modified": "2025-03-13T18:16:26.000Z",
+            "pattern": "[file:hashes.SHA1 = '062a869caac496d0182decfadc57a23057caa4ab' AND file:hashes.SHA256 = '3ca78cecb854ac65760f875c726a062c3dbfd9570adbaed473125c5c61c2ab21' AND file:x_misp_text = 'com.kakao.update' AND file:x_misp_text = '\uce74\uce74\uc624 \ubcf4\uc548' AND file:x_misp_text = 'KoSpy' AND file:x_misp_mimetype = 'APK']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-03-13T18:16:26Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--ee1f4cac-bc81-47ba-b3c5-1c9d68557d1c",
+            "created_by_ref": "identity--41f8675b-0800-49da-a2a1-2300bccad0ad",
+            "created": "2025-03-13T18:16:26.000Z",
+            "modified": "2025-03-13T18:16:26.000Z",
+            "pattern": "[file:hashes.SHA1 = 'b84604cad2f3a80fb50415aa069cce7af381e249' AND file:hashes.SHA256 = '75d9353c8fd8f0f88769bca71cf2eaaafee35f1f713ca28bd99c66546f056071' AND file:x_misp_text = 'com.tool.updater' AND file:x_misp_text = 'Software Update Utility' AND file:x_misp_text = 'KoSpy' AND file:x_misp_mimetype = 'APK']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-03-13T18:16:26Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--6e0b8f44-ef91-49d6-b904-ad415ed575c5",
+            "created_by_ref": "identity--41f8675b-0800-49da-a2a1-2300bccad0ad",
+            "created": "2025-03-13T18:16:26.000Z",
+            "modified": "2025-03-13T18:16:26.000Z",
+            "pattern": "[file:hashes.SHA1 = '3278324744e14ddf4f4312d375f82b31026f51b5' AND file:hashes.SHA256 = 'd937ea795b97a6f6b99dad10b31557c54d91e95f13c851371796ff06ec65dda9' AND file:x_misp_text = 'com.tool.updater' AND file:x_misp_text = 'Software Update Utility' AND file:x_misp_text = 'KoSpy' AND file:x_misp_mimetype = 'APK']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-03-13T18:16:26Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--31a5aac3-b598-41d0-8285-c8471dce13eb",
+            "created_by_ref": "identity--41f8675b-0800-49da-a2a1-2300bccad0ad",
+            "created": "2025-03-13T18:16:27.000Z",
+            "modified": "2025-03-13T18:16:27.000Z",
+            "pattern": "[file:hashes.SHA1 = '5639fa1fa389ed32f8a8d1ebada8bbbe03ac5171' AND file:hashes.SHA256 = 'cbcfcb8089eded5a9d4541a79e7fb1b099761602ab7f0be29fbc00faa30ce9b0' AND file:x_misp_text = 'com.tool.updater' AND file:x_misp_text = 'Software Update Utility' AND file:x_misp_text = 'KoSpy' AND file:x_misp_mimetype = 'APK']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-03-13T18:16:27Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--66cd527f-9807-4a85-9967-157e81a3d4a3",
+            "created_by_ref": "identity--41f8675b-0800-49da-a2a1-2300bccad0ad",
+            "created": "2025-03-13T18:16:27.000Z",
+            "modified": "2025-03-13T18:16:27.000Z",
+            "pattern": "[domain-name:value = 'crowdon.info']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-03-13T18:16:27Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "network"
+                }
+            ],
+            "labels": [
+                "misp:name=\"domain-ip\"",
+                "misp:meta-category=\"network\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--6368a669-5ba7-4330-ac56-5b0b3456d398",
+            "created_by_ref": "identity--41f8675b-0800-49da-a2a1-2300bccad0ad",
+            "created": "2025-03-13T18:16:27.000Z",
+            "modified": "2025-03-13T18:16:27.000Z",
+            "pattern": "[domain-name:value = 'joinupvts.org']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-03-13T18:16:27Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "network"
+                }
+            ],
+            "labels": [
+                "misp:name=\"domain-ip\"",
+                "misp:meta-category=\"network\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--d1ca80c3-a018-4d0a-9fb1-28b19bf05776",
+            "created_by_ref": "identity--41f8675b-0800-49da-a2a1-2300bccad0ad",
+            "created": "2025-03-13T18:16:27.000Z",
+            "modified": "2025-03-13T18:16:27.000Z",
+            "pattern": "[domain-name:value = 'resolveissue.org']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-03-13T18:16:27Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "network"
+                }
+            ],
+            "labels": [
+                "misp:name=\"domain-ip\"",
+                "misp:meta-category=\"network\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--f0b31cd5-8291-42f6-8846-73863c848ec2",
+            "created_by_ref": "identity--41f8675b-0800-49da-a2a1-2300bccad0ad",
+            "created": "2025-03-13T18:25:28.000Z",
+            "modified": "2025-03-13T18:25:28.000Z",
+            "pattern": "[domain-name:value = 'st0746.net']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-03-13T18:25:28Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "network"
+                }
+            ],
+            "labels": [
+                "misp:name=\"domain-ip\"",
+                "misp:meta-category=\"network\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--1fa7b74f-3f72-4edf-abbd-9d18942a0c9c",
+            "created_by_ref": "identity--41f8675b-0800-49da-a2a1-2300bccad0ad",
+            "created": "2025-03-13T18:56:08.000Z",
+            "modified": "2025-03-13T18:56:08.000Z",
+            "labels": [
+                "misp:name=\"report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "link",
+                    "object_relation": "link",
+                    "value": "https://www.lookout.com/threat-intelligence/article/lookout-discovers-new-spyware-by-north-korean-apt37",
+                    "category": "External analysis",
+                    "uuid": "d7659b9d-d9bf-483f-a46a-38ab2ee60a80"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "summary",
+                    "value": "Lookout Discovers New Spyware by North Korean APT37\r\n\r\nKoSpy is a new Android spyware attributed to the North Korean group APT37. It masquerades as utility apps and targets Korean and English speaking users.\r\nThe spyware was first observed in March 2022 and remains active with new samples still publicly hosted. It uses a two-stage C2 infrastructure that retrieves initial configurations from a Firebase cloud database.\r\nKoSpy can collect extensive data, such as SMS messages, call logs, location, files, audio, and screenshots via dynamically loaded plugins.\r\nThe spyware has Korean language support with samples distributed across Google Play and third-party app stores such as Apkpure.\r\nThere is evidence of infrastructure being shared with APT43, which is another notorious North Korean state-sponsored group also known as Kimsuky.\r\n\r\nLookout Threat Lab researchers have discovered a novel Android surveillance tool, dubbed KoSpy, which appears to target Korean and English-speaking users. The spyware, attributed with medium confidence to the North Korean APT group ScarCruft (also known as APT37), is a relatively new family with early samples going back to March 2022. The most recent samples were acquired in March 2024.\r\n\r\nKoSpy has been observed using fake utility application lures, such as \"File Manager\", \"Software Update Utility\" and \"Kakao Security,\" to infect devices. The spyware leveraged the Google Play Store and Firebase Firestore to distribute the app and receive configuration data. All the apps mentioned in the report have been removed from Google Play, and the associated Firebase projects have been deactivated by Google.\r\n\r\nScarCruft is a North Korean state-sponsored cyber espionage group active since 2012. While primarily targeting South Korea, it has also conducted operations in countries including Japan, Vietnam, Russia, Nepal, China, India, Romania, Kuwait, and several Middle Eastern nations.",
+                    "category": "Other",
+                    "comment": "Lookout Discovers New Spyware by North Korean APT37",
+                    "uuid": "883ab399-908e-4c99-b21a-99c57987bfb5"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "summary",
+                    "value": "KoSpy\r\n\r\nKoSpy samples in Lookout\u2019s corpus masquerade as five different apps: \ud734\ub300\ud3f0 \uad00\ub9ac\uc790 (Phone Manager), File Manager, \uc2a4\ub9c8\ud2b8 \uad00\ub9ac\uc790 (Smart Manager), \uce74\uce74\uc624 \ubcf4\uc548 (Kakao Security) and Software Update Utility. The samples with utility application lures have basic interfaces which open up the related internal phone settings view. For instance, the Software Update Utility opens up the Software Update screen under the System settings. The File Manager app functions as a simple file browser with some additional features. Kakao Security app on the other hand, doesn\u2019t have any useful functionality and displays a fake system window and requests multiple permissions.\r\n\r\nBehind the basic interface, KoSpy starts the spyware functionality by first getting a simple configuration from Firebase Firestore. This encrypted configuration contains two parameters: an \u201con\u201d/\u201doff\u201d switch and the Command and Control (C2) server address. This two-staged C2 management approach provides the threat actor with flexibility and resiliency. They can enable or disable the spyware and change C2 addresses at any time in the case of a C2 being detected or blocked.\r\n\r\nAfter retrieving the C2 address, KoSpy ensures the device is not an emulator and that the current date is past the hardcoded activation date. This activation date check ensures that the spyware does not reveal its malicious intent prematurely.\r\n\r\nC2 Communication and Infrastructure\r\nKoSpy sends two different types of requests to the C2 address. One downloads plugins while the other retrieves configurations for the surveillance functions. The plugin request is supposed to receive an encrypted, compressed binary; however, this could not be confirmed since no C2 was active during the analysis. The configuration request is set to receive a JSON document which configures the following settings: C2 ping frequency, messages to show the user in Korean and English, URL to download a plugin and the class name to dynamically load.\r\n\r\nAn example of a \u201cconf\u201d request can be seen in the image above. The request is an HTTP POST request and the payload is in JSON format. Values in the JSON are encrypted and Base64 encoded while the field names are clear text. The \u201cvtr\u201d field contains the unique victim ID generated from the hardware fingerprint and Android ID. The \u201ctype\u201d field can be one of \u201cconf\u201d or \u201ccode\u201d which determines the type of C2 request. The \u201cpref\u201d field is a composite field and contains information such as package name, app version, device language, hardware details and a list of enabled permissions.\r\n\r\nKoSpy can collect an extensive amount of sensitive information on the victim devices with the help of the dynamically loaded plugins. These capabilities include:\r\n\r\nCollecting SMS messages\r\nCollecting call logs\r\nRetrieving device location\r\nAccessing files and folders on the local storage\r\nRecording audio and taking photos with the cameras\r\nCapturing screenshots or recording the screen while in use\r\nRecording key strokes by abusing accessibility services\r\nCollecting wifi network details\r\nCompiling a list of installed applications\r\nThe collected data is sent to the C2 servers after getting encrypted with a hardcoded AES key. Lookout researchers observed five different Firebase projects and five different C2 servers during the analysis of the available KoSpy samples which can be seen in the indicators of compromise section.\r\n\r\nTargeting and Distribution\r\nLookout researchers assess that this KoSpy campaign was targeted at Korean and English speaking users. More than half of the apps have Korean language titles and the UI supports two languages: English and Korean. The messages and text fields in the app are shown in Korean if the device language is set to Korean and in English otherwise. \r\n\r\nSome of the samples of KoSpy were available for download from the Google Play Store alongside the third party app store Apkpure. However, no app is currently publicly available on Google Play Store. A cached snapshot of the Play Store listing page1 for the File Manager app (com.file.exploer) shows that the app was publicly available for a while and was downloaded more than ten times. The snapshot also reveals that the developer account was named \u201cAndroid Utility Developer\u201d and the developer contact email address was mlyqwl@gmail[.]com. The related privacy policy page was set to https://goldensnakeblog.blogspot[.]com/2023/02/privacy-policy.html. The listing also contained an embedded Youtube video to promote the app. The video was uploaded to the @filemanager-android channel2 and the channel also contained a Youtube Shorts video.\r\n\r\nAttribution\r\nLookout researchers observed that this KoSpy activity has connections to previous malicious activities attributed to two North Korean threat groups: APT43 and APT37. One of the C2 domains of KoSpy, st0746[.]net, resolves3 to the IP address 27.255.79[.]225 located in South Korea. This IP address was associated with many potentially malicious Korea-related domain names in the past:\r\n\r\nKoSpy C2 domains are tied to suspicious domains by shared infrastructure.\r\n\r\nThe domain names naverfiles[.]com and mailcorp[.]center have been reported4 to be involved in attacks targeting Korean users using the Konni desktop malware. Konni5 is a Windows RAT family linked to the APT376 threat actor.\r\n\r\nAnother domain tied to the same IP address, nidlogon[.]com, was reported7 to be part of the command and control infrastructure of Thallium (a.k.a. Kimsuky, APT43) by Microsoft.\r\n\r\nIn addition to its ties to APT37, this KoSpy campaign also has ties to infrastructure used by APT43 - another North Korean hacking group.  North Korean threat actors are known to have overlapping  infrastructure, targeting and TTPs which makes attribution to a specific actor more difficult. Based on the aforementioned shared infrastructure, common targeting and connection recency, Lookout researchers attribute this KoSpy activity to APT37 with medium confidence.\r\n\r\n1 https://play.google.com/store/apps/details?id=com.file.exploer\r\n\r\n2https://www.youtube.com/@filemanager-android\r\n\r\n3https://www.virustotal.com/gui/ip-address/27.255.79.225/relations\r\n\r\n4https://www.kisia.or.kr/bucket/uploads/2022/12/09/%EC%82%AC%EC%9D%B4%EB%B2%84%EB%B3%B4%EC%95%88%20%EB%8C%80%EC%97%B0%ED%95%A9%20%EB%B6%84%EA%B3%BC%EB%B3%84%20%EB%B3%B4%EA%B3%A0%EC%84%9C(3%EC%B0%A8)_%EC%B5%9C%EC%A2%85.pdf\r\n\r\n5https://malpedia.caad.fkie.fraunhofer.de/details/win.konni\r\n\r\n6https://malpedia.caad.fkie.fraunhofer.de/actor/apt37\r\n\r\n7https://noticeofpleadings.com/thallium/files/Ghaffari%20Declaration%20in%20Support%20of%20Motion%20for%20TRO%20and%20Preliminary%20Injunc.pdf",
+                    "category": "Other",
+                    "comment": "KoSpy",
+                    "uuid": "f0746ff8-c329-494c-a5fb-7ad28434bdc4"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "summary",
+                    "value": "Firebase Projects\r\n\r\nmydb-a1554\r\nproject-27ef0\r\nproject-75f80\r\nsmart-743cf\r\nversion-25b53",
+                    "category": "Other",
+                    "comment": "List of related Firebase Projects",
+                    "uuid": "6993241c-1254-4fa0-b4fc-6584f2bf0dc6"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "report"
+        },
+        {
+            "type": "threat-actor",
+            "spec_version": "2.1",
+            "id": "threat-actor--50cd027f-df14-40b2-aa22-bf5de5061163",
+            "created": "2025-03-13T22:08:11.000Z",
+            "modified": "2025-03-13T22:08:11.000Z",
+            "name": "APT37",
+            "description": "APT37 has likely been active since at least 2012 and focuses on targeting the public and private sectors primarily in South Korea. In 2017, APT37 expanded its targeting beyond the Korean peninsula to include Japan, Vietnam and the Middle East, and to a wider range of industry verticals, including chemicals, electronics, manufacturing, aerospace, automotive and healthcare entities",
+            "aliases": [
+                "APT 37",
+                "Group 123",
+                "Group123",
+                "InkySquid",
+                "Operation Daybreak",
+                "Operation Erebus",
+                "Reaper Group",
+                "Reaper",
+                "Red Eyes",
+                "Ricochet Chollima",
+                "ScarCruft",
+                "Venus 121",
+                "ATK4",
+                "G0067",
+                "Moldy Pisces"
+            ],
+            "labels": [
+                "misp:galaxy-name=\"Threat Actor\"",
+                "misp:galaxy-type=\"threat-actor\"",
+                "misp-galaxy:threat-actor=\"APT37\""
+            ],
+            "external_references": [
+                {
+                    "source_name": "url",
+                    "url": "https://www.volexity.com/blog/2021/08/17/north-korean-apt-inkysquid-infects-victims-using-browser-exploits/"
+                },
+                {
+                    "source_name": "url",
+                    "url": "https://www.fireeye.com/blog/threat-research/2018/02/apt37-overlooked-north-korean-actor.html"
+                },
+                {
+                    "source_name": "url",
+                    "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt_APT37.pdf"
+                },
+                {
+                    "source_name": "url",
+                    "url": "http://blog.talosintelligence.com/2018/01/korea-in-crosshairs.html"
+                },
+                {
+                    "source_name": "url",
+                    "url": "https://twitter.com/mstoned7/status/966126706107953152"
+                },
+                {
+                    "source_name": "url",
+                    "url": "https://www.cfr.org/interactive/cyber-operations/apt-37"
+                },
+                {
+                    "source_name": "url",
+                    "url": "https://www.bleepingcomputer.com/news/security/report-ties-north-korean-attacks-to-new-malware-linked-by-word-macros/"
+                },
+                {
+                    "source_name": "url",
+                    "url": "https://unit42.paloaltonetworks.com/unit42-freemilk-highly-targeted-spear-phishing-campaign/"
+                },
+                {
+                    "source_name": "url",
+                    "url": "https://blog.talosintelligence.com/2018/01/korea-in-crosshairs.html"
+                },
+                {
+                    "source_name": "url",
+                    "url": "https://attack.mitre.org/groups/G0067/"
+                },
+                {
+                    "source_name": "url",
+                    "url": "https://securelist.com/cve-2016-4171-adobe-flash-zero-day-used-in-targeted-attacks/75082/"
+                },
+                {
+                    "source_name": "url",
+                    "url": "https://securelist.com/operation-daybreak/75100/"
+                },
+                {
+                    "source_name": "url",
+                    "url": "https://securelist.com/scarcruft-continues-to-evolve-introduces-bluetooth-harvester/90729/"
+                },
+                {
+                    "source_name": "url",
+                    "url": "https://threatpost.com/scarcruft-apt-group-used-latest-flash-zero-day-in-two-dozen-attacks/118642/"
+                },
+                {
+                    "source_name": "url",
+                    "url": "https://unit42.paloaltonetworks.com/atoms/moldypisces/"
+                }
+            ],
+            "x_misp_attribution-confidence": [
+                "50"
+            ],
+            "x_misp_cfr-suspected-state-sponsor": [
+                "Korea (Democratic People's Republic of)"
+            ],
+            "x_misp_cfr-suspected-victims": [
+                "Republic of Korea",
+                "Japan",
+                "Vietnam"
+            ],
+            "x_misp_cfr-target-category": [
+                "Government",
+                "Private sector"
+            ],
+            "x_misp_country": [
+                "KP"
+            ]
+        }
+    ]
+}
